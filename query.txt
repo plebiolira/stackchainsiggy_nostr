@@ -1,0 +1,176 @@
+1682913600
+d3d74124ddfb5bdc61b8f18d17c3335bbb4f8c71182a35ee27314a49a4eb7b1d
+
+Meal prep
+ https://nostr.build/i/nostr.build_6f93d973626b5f4faed27b84a39f7f74cba98ab85eca656742f128a7c3b8de47.jpg
+created_at: 1683633938
+created at ISO: 2023-05-09 08:05:38
+event.kind: 1
+event.id: 5071d04dbacd9c7ffce4fba0d79e2275830d62706c34d56565171acf7355f8c4
+
+Anyone want to hang and shoot the shit tonight?
+How do nests work? #[0]​ 
+
+CC: #[1]
+created_at: 1683581658
+created at ISO: 2023-05-08 17:34:18
+event.kind: 1
+event.id: 882a1ab0a9061181d1e3d6719be70abfaf83b7ead17cab0760992f4d34ec245e
+
+Cc: #[3]
+created_at: 1683557557
+created at ISO: 2023-05-08 10:52:37
+event.kind: 1
+event.id: 830f964748d41e362c17c2aa4590b2b7fb50c52de75bb49458e2b0f8f4017993
+
+https://cashu.space/
+created_at: 1683543842
+created at ISO: 2023-05-08 07:04:02
+event.kind: 1
+event.id: 1a47c4e0e193364045df16f975fa18f1fb20133e063848d64d532702b2d9da52
+
+Cashu mint***
+created_at: 1683543799
+created at ISO: 2023-05-08 07:03:19
+event.kind: 1
+event.id: ecb4393f684af283c76da36b0e99ae572cb021ccb9ec67014d4ed32294c46aef
+
+You should look into running a cash mint for this purpose. I think Chaumian e-cash might be a good fit for your idea.
+created_at: 1683543780
+created at ISO: 2023-05-08 07:03:00
+event.kind: 1
+event.id: 8678200ddf9a395c93493cf0e3f0a12184df5a1c64351b44ce03d19c66952a6d
+
+GM. PV frenz. 
+🌞 
+ https://nostr.build/i/nostr.build_a1cce4156bc4dca3bccdd73482a8f088352f4cce1012b321764ebac4d27a62d3.jpg
+created_at: 1683543227
+created at ISO: 2023-05-08 06:53:47
+event.kind: 1
+event.id: a98428a4725ae70478082e9a82f1bbf5cde7f9d05131e4524b4290af1da80eec
+
+Cheese crisps crumbled and drizzled with honey. Mix and enjoy. 
+
+https://nostr.build/i/nostr.build_dc2116b792c04419c939a0ffbe09c8e076206a8785322ea5b8124c3f251ecca2.jpg
+created_at: 1683463671
+created at ISO: 2023-05-07 08:47:51
+event.kind: 1
+event.id: e988a9351947f47fb7cc5ebac6a2c8a79edf76dde1df489f8ee5ccef6e78e292
+
+What states don’t tax outbound business payments? Those will be from where lots of payments are made into Montana via ₿itcoin. The next in line for orange pilling.
+
+https://twitter.com/btc_archive/status/1654778260859887617?s=46
+created_at: 1683427724
+created at ISO: 2023-05-06 22:48:44
+event.kind: 1
+event.id: c73f648509c58b3fbd72dd16ef0f157812c392a26da6d1528a9ce87d2ef1023c
+
+https://twitter.com/btc_archive/status/1654778260859887617?s=42
+
+Is this something really big or am I just a bit high?
+Taxes are STRONG signal for businesses.
+created_at: 1683426215
+created at ISO: 2023-05-06 22:23:35
+event.kind: 1
+event.id: ed9f97668146ca5320a1914305676ca30c51ee57ae5a9c1835d18c9ac29e12d2
+
+Y not Rust?
+created_at: 1683398492
+created at ISO: 2023-05-06 14:41:32
+event.kind: 1
+event.id: 266c7145cc899e28ff5016acefefd02d455e2f3479ce3af530ec8df890cdbf31
+
+https://geyser.fund/project/brindontobtcprague
+created_at: 1683381849
+created at ISO: 2023-05-06 10:04:09
+event.kind: 1
+event.id: 6aa7eed95f4c00262af6f508d3f4a11b6f36149509a1d59278d44ff2ed6f54f2
+
+https://twitter.com/garykrause_/status/1654817856863838211?s=46
+
+Wifey sang for the whole town last night.
+created_at: 1683380563
+created at ISO: 2023-05-06 09:42:43
+event.kind: 1
+event.id: 08bc7921042a7b3129d7b9752285693837aaf5ea66242eb74f79f8759a4d89b3
+
+Dope. 
+Can I buy a moto with sats yet?
+created_at: 1683373939
+created at ISO: 2023-05-06 07:52:19
+event.kind: 1
+event.id: 92015ae98d804eabbc40debc8a4edb203116f08e5d44b8d7c8b7aec95cf889b3
+
+Next one later this month probs. Guessing you’re passing through?
+
+If you head west, I run Shenandoah ₿Itcoin Club out in the mountains.
+created_at: 1683368655
+created at ISO: 2023-05-06 06:24:15
+event.kind: 1
+event.id: 1807ca3756149cd2bac38e971cc5d243d1b1a303b054f7d5e556c3548ac8a621
+
+Last night I met my first IRL crypto degen. He had a the dye shirt and mustache. He founded some company a year or so back. Hoping he comes to my meetup so I can orange pill him.
+created_at: 1683368460
+created at ISO: 2023-05-06 06:21:00
+event.kind: 1
+event.id: 7849fe944ffee9c5ecce0f2e89d959502498bf91179508479df689bd1cf0692e
+
+You hit up DC BitDevs?
+created_at: 1683368387
+created at ISO: 2023-05-06 06:19:47
+event.kind: 1
+event.id: 037820832b1baa847d4c7feaf7d666d7533b5e0f7903cc929af892b77d99e453
+
+It doesn’t have to be the gym, but wake up and get your ass moving. Get physical. Sweat and raise your heart rate.
+created_at: 1683280200
+created at ISO: 2023-05-05 05:50:00
+event.kind: 1
+event.id: f020dc2bbc6416b8df2537c2d72935f7172c0faaffa76c9eadd678cedd09e917
+
+Recent observations.
+
+Have been doing animal based diet since January. 
+Primarily beef, fruit, cheese, honey, and maple syrup.
+Also have not used shampoo/conditioner with little oil concern and good hair. No complaints from wifey.
+
+On travel past couple of days. Got lazy. Eating "normally".
+Hair feels like shit. Super heavy/oily feeling.
+Obvious bloating/inflammation around mid section.
+Whoop strap reading in the red two days in a row.
+Pimple starting on the forehead.
+
+Coincidence? Or did I poison myself with "normal" food again?
+
+I'll assume the later and push forward with greater resolve moving forward.
+
+
+created_at: 1683198982
+created at ISO: 2023-05-04 07:16:22
+event.kind: 1
+event.id: 0000080cc932bade2173085f3846f74a146c72d7e4cf9fc362921a7a94fad4b8
+
+😅
+created_at: 1683161569
+created at ISO: 2023-05-03 20:52:49
+event.kind: 1
+event.id: d2201711f41f46ab24d5f6da36581cb2f35c309f1cf8bb30e6582155f051525b
+
+In hotel without a squatty potty. 
+
+Just use the trashcan! Might not be comfortable but will get your legs up for that smooth 💩 experience. 
+
+Works in church bathrooms and other public places as well. 
+
+Thank you for attending my Ted Talk.
+created_at: 1683111355
+created at ISO: 2023-05-03 06:55:55
+event.kind: 1
+event.id: eb4a736b0f59b0f376a5d1a44a78eacdeecaad52fc882f1195eb7c5861769789
+
+Smart bridged like this?
+
+https://twitter.com/pleblira/status/1653036915472453632?s=46
+created_at: 1682953011
+created at ISO: 2023-05-01 10:56:51
+event.kind: 1
+event.id: 056342fb923d41515d721abe527183cde4e3b95eb46fba0767e04e8f125e827b
