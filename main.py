@@ -126,8 +126,10 @@ def check_json_for_new_notes():
     times_checked = json.load(f)
     times_checked.append({"checked_time":datetime.datetime.now().timestamp(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
     if len(times_checked) > 5:
-      times_checked[:len(times_checked)-5] = []
+      # times_checked[:len(times_checked)-5] = ""
+      times_checked.pop(0)
     f.seek(0)
+    f.truncate(0)
     f.write(json.dumps(times_checked, indent=4))
 
 
@@ -163,7 +165,7 @@ if __name__ == "__main__":
   scheduler = BackgroundScheduler()
   # scheduler = BlockingScheduler()
   # scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
-  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=10)
+  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=1)
   print('\nstarting scheduler')
   scheduler.start()
 
