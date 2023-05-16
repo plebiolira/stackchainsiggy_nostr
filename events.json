@@ -2073,5 +2073,26 @@
         {
             "datetime_event_was_queried": "2023-05-15T21:19:32.310088"
         }
+    ],
+    [
+        "EVENT",
+        "75838384f38a11ed92c236a166cdd3a9",
+        {
+            "content": "#stackjoin test 82",
+            "created_at": 1684199972,
+            "id": "2f27951b8d359d9caa9e8845071599d50f0cd54abcecd97132bc3c75ad96ded6",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "ae70f4c5979540814acfb4c5992f95278b5b87f5c8cf7fb309f117981d1a44c56397e284d9bcb714da9530e8ae1c8f2d91d9b11f657f56d134be93631a5e3bb1",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:39:13.459983"
+        }
     ]
 ]
