@@ -59,7 +59,7 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
     # print(f"event.kind: {event_msg.event.kind}")
     # print(event_msg.event.public_key)
     # print(event_msg.event.signature)
-    # print(f"event.id: {event_msg.event.id}")
+    print(f"event.id: {event_msg.event.id}")
     # print(f"event.json: {event_msg.event.json}")
     # print(f"event.json[2]['id']: {event_msg.event.json[2]['id']}")
 
@@ -71,6 +71,7 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
       for event in events:
         if event[2]['id'] == event_msg.event.id:
           print('found id on json, switching append event to false')
+          print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
           append_event = False
       if append_event == True:
         print('didnt find event on json, appending')
