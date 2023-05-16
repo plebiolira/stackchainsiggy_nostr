@@ -74,6 +74,8 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
           print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
           append_event = False
       if append_event == True:
+        print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
+        print(f"event json is {event}, event id on event is {event_msg.event.json}")
         print('didnt find event on json, appending')
         datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
         event_msg.event.json.append(datetime_event_was_queried)

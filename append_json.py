@@ -7,10 +7,10 @@ def append_json(event_msg: json):
   with open('events.json','r+') as f:
     append_event = True
     events = json.load(f)
-    # for event in events:
-    #   if event[2]['id'] == event_msg.event.id:
-    #     print('found id on json, switching append event to false')
-    #     append_event = False
+    for event in events:
+      if event[2]['id'] == event_msg.event.id:
+        print('found id on json, switching append event to false')
+        append_event = False
     if append_event == True:
       print('didnt find event on json, appending')
       datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
