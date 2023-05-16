@@ -165,7 +165,7 @@ if __name__ == "__main__":
   scheduler = BackgroundScheduler()
   # scheduler = BlockingScheduler()
   # scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
-  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=1)
+  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
   print('\nstarting scheduler')
   scheduler.start()
 
