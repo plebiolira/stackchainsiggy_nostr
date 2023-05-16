@@ -48,7 +48,7 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
   time.sleep(1) # allow the messages to send
 
   while relay_manager.message_pool.has_events():
-    print(f"since is {since}")
+    # print(f"since is {since}")
     event_msg = relay_manager.message_pool.get_event()
     print("\n\n___________NEW_EVENT__________")
     # print(f"{event_msg}\n")
@@ -173,10 +173,11 @@ if __name__ == "__main__":
         with open('events.json', 'r') as f:
           events = json.load(f)
           last_queried_event_datetime = int(datetime.datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
-        print(f"last queried event datetime {last_queried_event_datetime}")
+        # print(f"last queried event datetime {last_queried_event_datetime}")
         time.sleep(600)
-        print('pausing')
+        print('pausing relay manager')
         close_connections(relay_manager)
+        time.sleep(5)
         relay_manager = main(public_key, since=last_queried_event_datetime)
         # time.sleep(2)
         print('resume')
