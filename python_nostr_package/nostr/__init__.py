@@ -5,7 +5,7 @@
 # from .message_type import ClientMessageType
 # from .subscription import Subscription
 from .bech32 import *
-from .delegation import *
+# from .delegation import *
 from .event import *
 from .filter import *
 from .key import *
