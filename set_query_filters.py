@@ -34,7 +34,7 @@ def set_query_filters(public_key, since):
   # filter = Filter(authors=[public_key], kinds=[EventKind.TEXT_NOTE], since=since)
   # trying to remove filter by npub
   filter = Filter(kinds=[EventKind.TEXT_NOTE], since=since)
-  filter.add_arbitrary_tag("#t",["stackjoinadd"])
+  filter.add_arbitrary_tag("#t",["stackjoin"])
   filter = Filters([filter])
   # filters = Filters([Filter(authors=[public_key], kinds=[EventKind.TEXT_NOTE], since=since, pubkey_refs=[PublicKey.from_npub("npub1cq57xj4duqvntwtv6p9czyqquu026ewva5mj4gdrs2elkhrguq3q9wtlgz").hex()])])
   filters = filter
