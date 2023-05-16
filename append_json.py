@@ -4,11 +4,13 @@ import datetime
 # from post_note import *
 
 def append_json(event_msg: json):
+  print('running append_json')
+  print(event_msg)
   with open('events.json','r+') as f:
     append_event = True
     events = json.load(f)
     for event in events:
-      if event[2]['id'] == event_msg.event.id:
+      if event[2]['id'] == event_msg[2]['id']:
         print('found id on json, switching append event to false')
         append_event = False
     if append_event == True:
