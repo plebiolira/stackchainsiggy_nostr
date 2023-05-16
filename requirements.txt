@@ -2,3 +2,4 @@ python-dotenv==0.21.0
 apscheduler==3.9.1
 dataclasses==0.6
 secp256k1==0.14.0
+nostr==0.0.2

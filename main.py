@@ -1,3 +1,6 @@
+import sys
+print(f"sys version is {sys.version}, or {sys.version_info}")
+
 import json
 import ssl
 import time
