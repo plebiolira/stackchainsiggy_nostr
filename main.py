@@ -178,6 +178,7 @@ if __name__ == "__main__":
         print('pausing relay manager')
         close_connections(relay_manager)
         time.sleep(5)
+        print('restarting connection with relay manager')
         relay_manager = main(public_key, since=last_queried_event_datetime)
         # time.sleep(2)
         print('resume')

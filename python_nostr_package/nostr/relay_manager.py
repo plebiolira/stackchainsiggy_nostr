@@ -44,7 +44,7 @@ class RelayManager:
             ).start()
 
     def close_connections(self):
-        print(f"closing connection for relay manager")
+        print(f"closing connection to relay manager (from relay_manager.py)")
         for relay in self.relays.values():
             relay.close()
 
