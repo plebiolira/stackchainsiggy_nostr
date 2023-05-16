@@ -1,1506 +1,19 @@
 [
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "#stackjoin test 71",
-            "created_at": 1684195429,
-            "id": "063aeb2aa4f416cbc37868a15d91a4753a77c9790683dfaf2a4a04475ecb4065",
+            "content": "Has anyone started a #stackchain on nostr yet?  If yes, add this please. If not, let this be the start of the chain!  #stackjoin 369.27 USD.",
+            "created_at": 1677216287,
+            "id": "b0cc9abcfcf26817e576aec528324c0d49ff99e24bd6ec6602285b37c79b4818",
             "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "5c13152bd2eb0b3a4d03fdde54db76c266d4d059e75f555f69b030081d927590f9ed7a94d25ad5dd196b18b13bf7e31ddf7f2242a7c77f73cecb64253f0f66b8",
+            "pubkey": "bc815d16028c8b012103018596386b77cbd6ef27f10f1992ada4986104df0cab",
+            "sig": "095291a4f6f9222476bc1b704dd6b7bfea4825b07df6f78b62a836f76a9bee2dc8ead2134b26d121522534d41f085266329fbf92251fa83cb78e2266c03880a1",
             "tags": [
                 [
                     "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.885448"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 70",
-            "created_at": 1684193565,
-            "id": "3e10b82087be8925abf7843058181c7e43800aeab9cc1f95827e1a4d07caccd7",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "4b6b3ddf9e8e20b43fefd84f99b5187755f1ecf70ba3471d80eb28c468688d70907d915747c4bdc8c1454ef236a85033323abb685f5ab69c6287b062ae0f49bb",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.891559"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 69 nice",
-            "created_at": 1684193463,
-            "id": "cca7f9b0ba6d0a8ae640b6610d43766158e4b0361ddc4e4dc7560efe805db7f9",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "4542c8270f9100c5212cfe23b2eaa8fe66c8b3ffd1aca58b7d73dc34d80d893c798310c828b7910810ba1cce4187422d21bde8ac4a5056ccd5da3bda933563c6",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.892162"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 68",
-            "created_at": 1684193280,
-            "id": "a6329ff15ea2ddaf7bd3153a25c0a001bfec172f4b750b0e75d6ecbb66ac2c9c",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "e6420dbbcc7775cbc691147563220f64b4399a3929751bd0ac425f0d7b3660a0c962e790c2bf627a36db35400b88cfada84370f4da0a43d2a2804122222e0ae3",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.892617"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 67",
-            "created_at": 1684193165,
-            "id": "abe7c7a98ef515f8dc5b76a36ece2f0910fa797a35f175ae8604db710d999ba4",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "40842b045cdd5fd2704221675256caa654510dea18d8deb362e10208f4cf1467f9a93c93cd6f4f7d620c4697e429757f818f8fa14fa4a2355f59a13c0c37c040",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.893040"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 66",
-            "created_at": 1684163835,
-            "id": "07d1be35267a46f908ad260372f9c493807cac4d3889c1642e952b4ab823190e",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "e16f37c1de957fe7f1dc7521e3835b23ec01e7dbb5dad8835e700715d6dd9d250806a39acaa4f1cae8bb5643aa389cdab41c27c0e5150d9c3b1a4a90cf030c1d",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.893482"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 65",
-            "created_at": 1684163222,
-            "id": "db3112afe528deedc10d4143d92c512029460529258774a95123d9d30bd21f74",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "b90f7e97fed42af033c3b2362bc8ce1136cd35a10eb9a2aa1bff59262c1a3181a89d1e05724a5f536c9698e0ff7be35763620c118da7e5db7f99a5e29b50a721",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.894110"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 64 ",
-            "created_at": 1684118451,
-            "id": "bd62b18d1cc9e88d5656d4fcebb3f554d49c49d6b80fd82dd3e0ac950954f25b",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "7fb9d54638ca40c8319a83fbffa3b04a6cad42af4eeb67bccf5d7f1c0f68037999e96f08fbd380913eab9c296c8fb9c585aaf69ef79896f46c75da68964a787e",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.894642"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin 63",
-            "created_at": 1684117553,
-            "id": "377030503ad057e8c246da7665c892411246533940ba298cbd6d8088adeab118",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "3cfcbd5b8f680b1a34a0e5f01f6e64b5c5462ab2f8735431cb65eda03ef9cc34cbce3bc9af6fc1fac0ec4d71f78fbe53db5a00492eb7719d470a135c923eb4ec",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.895123"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#STACKJOIN 62 restarted app",
-            "created_at": 1684117012,
-            "id": "3f89af9c2f38b9eb690e4ee6951dd0bce3fc284d53cfb07b9ae72e7c57ae4b35",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "3c7c5b2afa829f484da2f17aa9fa45ff8a60477fb6ddd28d642d2ea773f2471a18b04fcf333a248f4d4135444c677bf7ba43069eea5a483dc37bcc161d52ef77",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.895619"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin 61 restarted application",
-            "created_at": 1684116345,
-            "id": "0b8d2bc9ba518bc647c0fac9f185d98b29d51934a6227e4e33a8a0509ad61adf",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "b96a506e65e414315757abb21c7186335f0313e56519ee3b1fa8e9e7166bfb5b7d2be5ecc7ca355650bf1dd6c652331c17885d9d8b3b0e386eca7257f286b25f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.896170"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin 60 keeping connection open",
-            "created_at": 1684116136,
-            "id": "b7ed93c12c63ea9df1ba07217f73fd332a7020bca12dbf2e9f8857d9af42f159",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "69ea020b0c0509fdc631ec0ede8c5a6d3cf314cafc866e1e543505556557c9a17eed45474930fec78b0a9e275e91f8c25c0f603288d5faf2f5bb38bd2613d6e5",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.896915"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 59 keeping connection open",
-            "created_at": 1684114213,
-            "id": "4a6c174a48f1f9e2821107535b8a91dda944ae776c278653272ad52f8faf8c40",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "edaef9a8782f23517f58b3f073bd198292ae01a947503fae1d4c924f6d4747cf130137278571f098b6b711dcdc4131b4a458991f308a5508f8511b28ae5053ba",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.897484"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 58 seeing if connection stays open",
-            "created_at": 1684113346,
-            "id": "253a4cabb9becae779a33eae18be7bbb9dfe288907b5e2bd32ea32ff19a84bb6",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "827ab472b995c1cb815589e4fe9e558ab42cb580af709471ceff8fb0a0443de424d34914a980394096ce7de39255114c403026e5fd9a1aa532216d8f2313a110",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.898072"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 57 from a different machine",
-            "created_at": 1684111864,
-            "id": "f4080d6ba8939f1f719bb626b3f7483877052a22cea35d02e5354303289aa23a",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "c16e1ef8e5971b79db99f87f3e10528aaace65fae4167434adf1ae9a7082aaefac69a5c7cbd5765ddc9fc70fa755fff0bf7ffd3c2c7785ff4bfacea0ea670a99",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.898644"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 56",
-            "created_at": 1684111768,
-            "id": "383fa7b9b0c4b8fc05076e6cfc7f40bf3e51c8c79438d18212fd7cb9542df2dc",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "c26b7c6b664482a2c306f7e46731f6900cdaa8df17aa33cb5c073e5d9f63419965a9561abfb13ab22cbe3483623adbf119e72914072fe82813c9b15c2b9dae1c",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.899257"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 55",
-            "created_at": 1684111741,
-            "id": "25ef72c66f3ebc2eeb4dd72df4af8e5d00b6ffac2da3ff78a928bd04769d6c34",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "004017d20ed765f15ed3b82082ce852c74162cc273c695b0cd497584a1b7e6ad2683ca09f4e03eb2b763222d06fb8e3f7e34eba5dc5314b9facc4b2b9d81e2c8",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.899895"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 54",
-            "created_at": 1684107754,
-            "id": "f36f7d89d08e13bd1e86bad4718c66b7d2bdb9fdaa0bfc0888923661aca771b9",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "b75e121623310ecd0211b64a6e2ad6ea2bcf6fdfbe4e45918565c73600bea560066905753961d33f5616ef20772992a081d83f73892f38466f2a5efb6a5f7fff",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.900575"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 61",
-            "created_at": 1684106113,
-            "id": "1a8820e2c133795c46b1d06958f365cffdec9268e40445b593dcd507f1142c96",
-            "kind": 1,
-            "pubkey": "3e1aae5648d675a5584eab30967cf7ea1cf3576e01141004cc4d58e9cbf91b00",
-            "sig": "9b7c5fc1dacd632911b78d12697f0fef849bea838125d837e60d20dada3a9f50edc5865086af49d21a24bc9ed29eb91bb95d2a1fda4e0afebc516aab5d0d3a86",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.901241"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 56",
-            "created_at": 1684105963,
-            "id": "7bd85b5075c9a32ab804abb27569881ab296244df96ec0a1375fd2921e46b8a8",
-            "kind": 1,
-            "pubkey": "3e1aae5648d675a5584eab30967cf7ea1cf3576e01141004cc4d58e9cbf91b00",
-            "sig": "91948f5b93d70bbd764db89b1eb978cd27531c16823ed7c2980e3ef8cde1e2a8bafc2218aea308e24ce715298eab50b23e01fa5b7fe7a5daefbfb36bb53cc036",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.901996"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 53",
-            "created_at": 1684105477,
-            "id": "bb93861c888ecf7097331238d4147fb08f7600a296796809f7954d45fb1275fa",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "c5efd1eb846d12624b38a9325e6fa026fc22b1bf325c75adb84c4b0834531a209da43a5c208b956247f4677fad8af811a3f36833037e66b971ab0134685b81a7",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.903068"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 48",
-            "created_at": 1684105347,
-            "id": "7664d768d0964593d9dbfc237e92332fa10f6c83e82ced5423a5f8a480a3e777",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "130d8a952d6e55d8869a848cb466a8906136c60d83ecdde2cc0e33758f74b0b32956c881246430879991502b0c6fb8b116c0e95f1f03647d0324c6cc20ae9dad",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.903791"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 46",
-            "created_at": 1684105326,
-            "id": "734ad2a243f977a57ada8da82c1bcc6145ef50f5941f8a3e6fac32a2af3af34d",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "dfdc9bea61263e0b0e605091a168390ef55e516e5e7259ee918f6747f6d1714a6ccc1db0340959c49062e3d21f03300026325cfc33f022e081646a1b389bb90f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.904567"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 45",
-            "created_at": 1684105264,
-            "id": "0cf0a0e1c41300ae406fbcf07026f174ee8548053eb4d2fc6287d500d7d26cfb",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "38e4b794aa80bbf251cc8709de6e589b701578694e988a85a19f9a262fd8fc2b4d388c2ba5aab47a8a4625b6197ad731acf31e659c8bd76186a0d31bab6630f2",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.905310"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 43",
-            "created_at": 1684105152,
-            "id": "7d086ed68bb88154963c171dbdb68dfd4cf17a3e0f007897e37739557b218eb3",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "158ad616f5efc8f210e7ac04fe00a93cedb436cbf3a99513074ccfb3a616dbc3bb5e940c6aba82afb72464b9e793f8af90dbc93e00542ad41b02b544db3ac41f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.906046"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 42",
-            "created_at": 1684104998,
-            "id": "90a650d2e5fb17ca61f7255890b0aa1bbe349925f5c7686180c2ad913667910f",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "2283e44223ad9c945cc4f01683ced420071739479e3cd4d47776403aac992ddc19df4130126196b87171ad7c0dc806d7dc0c1a3628d6805d802e310bc890a25b",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.906792"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 41",
-            "created_at": 1684104952,
-            "id": "74ce77f1299e5dd94430235a5ef31a5b0514b249af00d7b23a799240a9f75ded",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "b0089f82eaf739fb1478bd1f8652361f86404488ef6409bc792db2600a291ecba50f3f3ce432ef2004e3b7fb853a587bf9f715a1c9cb87622424af5169f58fdd",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.945264"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 40",
-            "created_at": 1684104826,
-            "id": "c1107649b75c33daad92581ac4196747948eab71b1257ad844959cd9c1e20f9c",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "73b5627105cddab4b39c1e69d12b87aec698fcd3dccb8c89130fdd584460bc6d4941b9f7188583c7c3604b8a802e2bc873d1c58080e5fc55c85d7754c4ba9472",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.946215"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 39",
-            "created_at": 1684104776,
-            "id": "c2b5941bf2f2f4049a7ba3313f05785be1022e043ca73171796fc6b928401e5c",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "47741f3b2e8bae2d347cf07122bfb38fb76acb7ba7516326fe93253fc8c3f4bf550d4003ef708d94e869553cdf80bd4fabb2c2e17eda6d2c56a9c43e940f0d2f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.947254"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 38",
-            "created_at": 1684104469,
-            "id": "792609c0d8c553eef562d8dcd8eb2543dc2c60b35ce969ba241eca8344050066",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "10a1306b3de9c078378ad438e9c4f824a5de62f0b453f79ccacd423bfb912fd80425cea694bf2dc90fcbe94df6614095f74d2d0862f54d43b171d42c4d07f32d",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.948131"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 37",
-            "created_at": 1684104229,
-            "id": "a124a4c3eea28303de92df2255f224a2fdb2e8ed3e4d8f02ac45ef0cbad445fc",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "05fbea3cdc40931d9d69e3e2046f47309c0cd6c9c012e638f17efd55b76f971a5e85682491ff1d5a8dd0fa794eda3ccc524c3f0114a3201221277f5d2811f3a7",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.948970"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 36",
-            "created_at": 1684104193,
-            "id": "16bed01d7a66e2ca246c9ec48b8f20891a819b9fabc230f069792a5f68fdcba4",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "a06ae387849c322192ed3b50efb96336971365828f838ab0034366e5e031be3b78e9aff36ff610b18c51dbd2d36c0347909e555806fac30f99544de0266fe997",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.949827"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 35",
-            "created_at": 1684104149,
-            "id": "92a6d12245e6292567cd3b6320b8567b0df83ad91bbf57ae61bf17d7b74c4414",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "6e877b2a30f7a5897a7a9bfb3e46a2e88707f7209f031c311589505feb6eb6479580161197e78c602ee6f5ca128dbb655d2140f4a63e17b2633af517ff3c889e",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.950784"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 34",
-            "created_at": 1684104101,
-            "id": "3374fea40f331676e0be5747052ebc11d2d9c062cf94625c6df183bd337a8c94",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "cc0cb49a4e28e89bdb4a4c540f1ea08031af240e6e93bf9de3355bfc21098a3f576c5dc36386f8357f2af6aaff92b094c097eec2e964e2d1b97d694ab3ef928f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.951824"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 32",
-            "created_at": 1684104028,
-            "id": "59f4b5fafd476cd131ea79d41bdda7b5cbaf5b8bc93836cb63ac5010a3655c89",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "1d1255b79c4ee938afd32d273883934949df3ff216f4d5113acbb9cc84185078b084ca99fc5d12b11322e0d0fb64d37d1e38fe77ca6401f2d347cfabd709c95b",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.952819"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 123",
-            "created_at": 1684103931,
-            "id": "e4224fd7aa2aba97fc3a8882b136e51f13f23d1a98d6f8041fb5b24eab8b3b46",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "de0328a318f30dcff2e1ca4b44d9cd0f98db25570ae80c0dbb2bb40d50a353e263f896668ba1ef59a8376d45b90829e479455ee4bcf68296243ff283743c86cc",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.953775"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 31",
-            "created_at": 1684103289,
-            "id": "6d6a7ec9a77fa55655fb3a25aab2994f4c9849860d288c0977c7ea7c21583ab1",
-            "kind": 1,
-            "pubkey": "fc87d30789d8a534b59073d602d9d32070b71b903ccae89cfcbd9a7bfa2110be",
-            "sig": "0954eb11a0c49b6cfb7545b883d24cb8587c1178b9f795055407da0394265269933769b4f1fcb418747c39a75a550b9f768b8fbab7b967aa1b8d5c968b43c204",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.954693"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 31",
-            "created_at": 1684103204,
-            "id": "136400fe3f8f3bd3f69e100c3e8f2d772727d94967b2746d6a7126251e9efc95",
-            "kind": 1,
-            "pubkey": "c029e34aade01935b96cd04b811000e71ead65cced372aa1a382b3fb5c68e022",
-            "sig": "e8fb516a512a4842e546c15e92ba3db1fc974c632fc6c325afc66969b57c1ccace9dc83c89370da9d99fad0fd03e2f062d73b4d252a4ae208cc337f320d2f463",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.958004"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 30",
-            "created_at": 1684103165,
-            "id": "1c65922cce3ae95f908ad928f706357d8db0dec694df413e1ccd1c88e2d84f26",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "b77a87726a71c30cc167f4bd490eb053c6ea40ac7cc81c0d32486dbd1543a5e68a04d902df9f84f98eb41ecc8e6451e56d57607a9fc3af479f60b6ec6d44a5a0",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.964543"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 29",
-            "created_at": 1684103114,
-            "id": "2cc804716da9a83bb9b9bd63d4a69ac33247efe03091c83a85193ede42d457c7",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "064c4c2c92829507fca3459e94e76ace4bdf021da7d62684a3d740fe2c0c610bb48702ab4bc39fe0dde56fe85764009e2d1d93ec2ac5bb11979734d66739caff",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.969565"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 28",
-            "created_at": 1684102864,
-            "id": "05d8fc11c3b8db3bd65598b832fbc7ed2b54d29512d6156054d91dd071e6e240",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "a99636f05ef710095a1e32ca0ab9e19ca9e6af11ba3106e3f569ea47b173e293efe2cbc01fc78ccce90dec2219e3aea617b5f4af147cb1f2861e489c4b3d562d",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.976032"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 27",
-            "created_at": 1684102740,
-            "id": "d5fb96c52b634fcc2f734594bc8ee4338a40094bf089ccab9e031702f8c57add",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "1a44df4d9cea51f3a26ceb10e26ebc7ab5e5d0d2e512fe4de127a36ae042d9c4c050294bc4d877563511d351a2a3e1401ab2fdf4e8c56a8084ee9d0973d16a7f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.978497"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 26",
-            "created_at": 1684101356,
-            "id": "bba85ab6e1368520fb9da5c8e9a16a988f24e298640304c895b30fa47722c7a3",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "0824db163f3ee58550d5677300579805d94aa6942fcec89295099cffe1c86bf0d4db183bbd814580e48d1205b91a527dcce932e91218ef485089683d27edcb5a",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.980598"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 25",
-            "created_at": 1684100166,
-            "id": "e71bdbb739ee4d13d9dba53f8106f9f904f5424ca161de784caa5cfc7adc2af6",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "e189b3fb04e87f2bdd6e9403729c369420d6cfd2843fe4e332524560a30fffbf1842338f213c715a253a9af8e2022026e5b6ee07c4fa9a0cd591c68f1a2ad59b",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.982980"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 24",
-            "created_at": 1684100102,
-            "id": "4d5889b9888cad87ed97e75297ab2db0838cd062d022f5a0c78da280c2e2e835",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "db0035885993c721d60e628ffdd4a51989d1e8f9952f8a75157fb3edef5b6fbf2fa0b6d412b06efbf41c342fa8fb7bf1f2407132ee9b34697a0be7c8ecbdd316",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.985786"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 23",
-            "created_at": 1684099539,
-            "id": "5a1f1a7419c229cc67877c4887a807cf3609d832f0f39bf2ee212cda82e10c31",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "962e17507ab556994572445bccff75fbd6fae036c188c1c00073aaa315590b8023570a15810dcc61b6fd1737dfa4f25c8e492140909dad1d9e234dc7c323f855",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.988346"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 22",
-            "created_at": 1684099513,
-            "id": "9b704e2be546f3332f03c8255cf4f6e5fc12bb1f1afb3cc88f36f7c694cf721d",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "e4f4501343adf2e411c886842d058b287b6607d5cb4e8df2e7b0d63f87304871aaf7b291a6155b3a83789f2d38287262d1fae6725890eba4bbaa081ad4922b99",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.990596"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 21",
-            "created_at": 1684099488,
-            "id": "f8c57141657cd2db99a65e7bfbca2fafc360b73ca358d96e2ef0a9f7a4790607",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "2355dba3f2be940ca5603a4087c3f526fb05c45c1403adee3f2f651b57d50f146da3b7abf784371fe367c26e8b93f2c995f3387cbf835e8fa6154b0dfc02fb28",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.995174"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 20",
-            "created_at": 1684099416,
-            "id": "50d2fcfd1b386e045cc6427ce087223a19117fe548e54e9351989f98818a0ccb",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "3909a33b93e3637dc8d5841a7c443d1c919e9a02252b377ce76b6ed35361adca27c2cf65d387fcfbfa7a97bd0f494a0c083eb325f97b04accb2d16402f6066cf",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.997062"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 19",
-            "created_at": 1684099386,
-            "id": "fa17b33f949254310be8eb7802fdbb0a9867bc606059e7430ba76a3486ac850e",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "11bece7166fb4ce6b67cb8fe006867b2af5dac769d57d485d2713f3938cbaba1d62d58b7e8898477effa9c9363589bda08065b44daaf7f523d1974d831bf160a",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:23.999534"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin 18",
-            "created_at": 1684099337,
-            "id": "3a85bfd5312a384c48db48ba675ad6a04d50342d74e879d430b3d3f968d347f7",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "19f9fdb0830f85bc04948bb34abcfdae715b1097757d0461d7d5501c5fba5cbd3f75da7e2182f0f9007d77db178d14d8d6eb1c62b7eb1a80605f176aa8c53aba",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.002106"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin 17",
-            "created_at": 1684099229,
-            "id": "a4b049127db517d58d8b1a246f64a598e8d61f5cbf294c786201aa6259786371",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "cf7403b028a98538bd4d456750a90c1fe2d8dc761cbdf509fe41badf3385b70e46d7cd46d12d2a18ba28f48ae658ccb7a2f4c3d7fcdb7445d6a1f289206baa8d",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.003981"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 15",
-            "created_at": 1684099188,
-            "id": "e12c9918b840e913f92fa74c0e6289f7c1da05fa86e73a4d4dee31a5f9bd1b9a",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "63aa1d032dcf965046f0939743355e7bf192bb154ffb95b19298cf67c65475c34162fc46ed6004d40abb8d95e2babe60d199355c2b4b08b655dc98499974927f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.005658"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 14",
-            "created_at": 1684099144,
-            "id": "a84cb762578eb2f910fff1a4d009b49a467ab299938dd31fbbaa8b634c8a0e82",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "6739ffd45aecfd58aa64e39ec9f7e4756068afa71a5aa01714cdbd502d0b3caaac6e0e6c4bee1bbf434d2d420b95b02368b2f57850051adba9df083afa48a0f0",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.007094"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 13",
-            "created_at": 1684099055,
-            "id": "f1586546e1d02d81ace53d551f5e24c2924cabd9e389d594cbed61029f9bfd13",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "452dcc138935da8fb6efd4df8183c766659d1112de04a9ac47d5a7158d96585e18b023b53092a95683d63ec0803ccf687388d9380f0c1107dc485c4bf459b615",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.009350"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 12",
-            "created_at": 1684098973,
-            "id": "bd4834add8f04ed0bc03ccc98f2fe87248f134b0c6054809aed90bbc6da309ed",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "f488d8ee0be81b8dd18ab96b4880b729a14fa5e46ebc1aafab37ed57a499fb87680b0def6ab0e78031e8fb16f21d7e26afcf960d86834d54922d6d9affcdf5db",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.011448"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 11",
-            "created_at": 1684098939,
-            "id": "fba94a42ed682215b329d460f4f7aed576dd2cda51298c3fab9cad3af221efb4",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "a46a25ef790ffa43f3d952a988ed44868b585f51757c5c1906621573806d1882d8318bbaec6084b4b97008e46068b59b49db7449844c95fc29c8f5399f22169a",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.013120"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 10",
-            "created_at": 1684098895,
-            "id": "4bd9b103a3a6333cb53bded01058e408714061c7cae541a59baab4f0083dae5e",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "c09cc5358879245b92a16e71e3b24a6061f16874a17b375237b281442f8db054eebfd4f52f23916e2c0994efc9eb21ed8bc92ef0e6aeec40049cac87ee6a809d",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.014446"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 9",
-            "created_at": 1684098855,
-            "id": "79bfb24340e8530978eccfe45d623611e851b09426ffc64e4ef2928cf39a3f62",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "c55c1f2eac25b6ac74a1401fde6d2732530ccbc877f05c55ec304a3c0eb9311dc6a5dd9820b3560c731a63e18deb2ec1260d1cb42c08f1f34ccd243adcf93d64",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.015726"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#STACKJOIN test 8",
-            "created_at": 1684098829,
-            "id": "97a7590fe5c199452c605c0065a5536a480454cdd94cd0f627adb17614122de8",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "68d0842c63381d08bf80b0eeafd2e61af5da27b5787a7e844d1f13bc9cdd4013af4ac960944358e1f721387a354a1c5ffb1a628a8d67f1f279cb99664b297160",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.017264"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 7",
-            "created_at": 1684098144,
-            "id": "67f1d236dd26d6b2fb8e18d2dcec3c25b38b6c2e0c87451a8cdbbe00a3a476c4",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "3748fb300596b87f7715175974c27f57cb84f3022607dfeba1c5775c3c3d7d037c40ff462e039c399fc03550265bf53ab3d161927e348c185fd0b849186f9b6b",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.018804"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 6",
-            "created_at": 1684095733,
-            "id": "8ac2f8b593e54b589be0fda780cb71dbf65e1b1c9619a59c46c778e4b3bff4e6",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "5167490f8d5716f8b7106e590136fd0bf0f41a7ad72a97f4fa97651636fedcdc043b643ef5c5e0165564bc5c1a8255392eecb193fa595c92b79093a3d5d0688f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.020267"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 4",
-            "created_at": 1684094818,
-            "id": "84ef72d52eca7aa3a20796b627a75bbfc172ac625443a51d03b5cb18f5208711",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "ff217f17c32d7b2d83cca2c997acafd3b8fbc614b150b493c4a31b3406b452418076481d387e0556208b9ecd7d985d20ef718f9bcf632c9d7437b41c13ee89bc",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.021636"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 3",
-            "created_at": 1684094682,
-            "id": "62d31a422001f6490f309e5ff8bfa4630b48e7bad5c5afc7cdb88a0781251f24",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "18d657e6d2ba10c69fbcb4c5c27441eb09231cd46b221737018571349511aa801e113cec369598eb851e3c74effbdd9d3b1297b96688c118169629078bc322b0",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.023154"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test",
-            "created_at": 1684094666,
-            "id": "caabf3759b6e1d7ccfe8b5ed64be7a0a2c53612b5f34295b34e7043ed421fe35",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "47773f83827d7acaf0979b1771a59c1ad627f7247d91a8d23f551c028fdf30c3e919790f04a6735e4f46cb8ec97e0f2146a0ca3128a0d47bdff08393f8674843",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.024750"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin add test",
-            "created_at": 1684094290,
-            "id": "fd36e7864f0dc1009a12368b7e2d0b110a2b0eb173ece55180d9c064584b8d31",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "5a1eb6ec158d9ab247306311c6244181202a89fa60408e8611080e367416c321ae31f3483190abc4754486bd6f891780325c85ce77f91426b093088835ec2ca1",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.026536"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test",
-            "created_at": 1684094215,
-            "id": "0c9c297f91f41532a5f4f0184269092eb691180256e1b45373e0c964d3719947",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "94eb8a388171f1dab636c9708860be7029c74550eed6a56e3481227829754ecab5072145719fc27ce0520b093af85832df09f1b45f6333543e903314db2d9f22",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.028395"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test 2",
-            "created_at": 1684094169,
-            "id": "b885c592c6897e90918d50158570a99b7c13df2782166a261b6503a3041d9603",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "1a6cc4755fea91cf37d90bc749afda7e2666d96474c0fe8c01eb6aa376389ac4fd95753571899bd29e8f245fab12eb6069840242941253368ab0d31ad05b3a0c",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.030000"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test",
-            "created_at": 1684094101,
-            "id": "94e84705ae66849f4de301200429727350ac72b24ed2f48b3be7ee8db5378727",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "7082b497eccfe4c0e02619cdfb474c407dd7792815e0024bf5e8ccffcc6fcef68ea3983632abe700fcd57dd5e29974063b9bc04865f7378103c59ffe0af97d0c",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.031524"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin smash buy penis\n\nhttps://void.cat/d/UMNHMVXK5UtajXGHkVXwty.webp",
-            "created_at": 1684074867,
-            "id": "b899ac779613f932a1f2d95978221bc1feb8a71f5bf56b3a2c19f57cadac598b",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "f4376a8416922b1caff148a2312a0bc38dacac492020003ecfcdb5559e84d1604c68f65052799c6e1d1fd37b640c833f90f58c3ec12af2a2e2b53d1b7b792bae",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.033011"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "stackjoin with hashtag #stackjoin",
-            "created_at": 1684073021,
-            "id": "da372fd491429eeededcf48e91ed099906a40b6c8349bca5e8f7a05c1dff2095",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "a40294265f94828bccee4119d14b1c32555ab13dba05712f2b2e6d24eae7a72bba5a82bd0f9d7aa8ac24ef95e3a5a82b6e05694eec697fa870b853e81262d7db",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.034577"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin test",
-            "created_at": 1684072993,
-            "id": "6bd2c8204671ceeadb90e492e01f39418cf721c0f9d2c399927dc6ae735b95c8",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "91b4c14f9adb0c9762b89b02b2739c44a250b767d9977d693cc69149de8851adbeb7c2459aa961e376e7f50c7ead544d620695296175fa385611327a2aec8815",
-            "tags": [
+                    "stackchain"
+                ],
                 [
                     "t",
                     "stackjoin"
@@ -1508,19 +21,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.036240"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.134214"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "#stackjoin",
-            "created_at": 1684072927,
-            "id": "ed755bfc45a39cf4cd192917a8c3bf80c2a7b38b394a868e0d24e565828ef28f",
+            "content": "Can do #stackjoin on nostr?\n\n\nhttps://nostr.build/p/nb428.jpeg",
+            "created_at": 1677685467,
+            "id": "e6e26eee16d87eef2933a15b8265794f5a920bdcf00f3be2e36fe37241d02244",
             "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "f3216c28a0cead0d5bb91f62228f7ba138993e45e1ce58891707c14ae21ec3044fc4d6e75677b97e97c1e91ee1f6bba3616dae325e93ef9e4b9597d626ed5550",
+            "pubkey": "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13",
+            "sig": "6de15ecb34c34b3ad1cd472f6e9221a8e6347fabbc8d1b900f7db677760624422c64d4621d241ef79a6c639febb94082a63b0d12b46a04381eb161df10c83da4",
             "tags": [
                 [
                     "t",
@@ -1529,27 +42,31 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.037812"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.113545"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "#stackjoin",
-            "created_at": 1682451641,
-            "id": "c70778a7503f5ba87b3b7162266bb387deedbd51b916473e61c711ce9ba1aa50",
+            "content": "#StackJoin ?\n\nhttps://media.tenor.com/PhrBMdmneMEAAAAM/maybe-mayyybbee.gif",
+            "created_at": 1677720584,
+            "id": "380ca44e45c6783a36fdd69a5ef3b059d5498c190d9511f1733854416df4cf8a",
             "kind": 1,
-            "pubkey": "3f770d65d3a764a9c5cb503ae123e62ec7598ad035d836e2a810f3877a745b24",
-            "sig": "e5d7a8eaba2d0246ffcecf6bd6e68ddd0fee28a45f8c641a4574070f6b60e7698a429ea05bbeb7d25c0334a5d8551a0c9a575d6405ba08578782e6fd6519c4c9",
+            "pubkey": "408e04e9a5b02ef6d82edb9ecb2cca1d5a3121cb26b0ca5e6511800a0269b069",
+            "sig": "794ae49082622841907d0e3708eaa344675b645f7948b3c8fc2be1368b8a2608718df4e5d88bcb7ad4c529e12532a76ae359b65012a72866b2692f17e43c08d8",
             "tags": [
                 [
                     "e",
-                    "eb3661ec992eaaa29254067d4a92c20561fac6fd44c32b55ad726532a80dd0ce"
+                    "e6e26eee16d87eef2933a15b8265794f5a920bdcf00f3be2e36fe37241d02244"
+                ],
+                [
+                    "e",
+                    "83d3130265b5b0cb062c5ea989edf96684e3f1d4e750ede784187852b25e4e2e"
                 ],
                 [
                     "p",
-                    "e2ccf7cf20403f3f2a4a55b328f0de3be38558a7d5f33632fdaaefc726c1c8eb"
+                    "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13"
                 ],
                 [
                     "t",
@@ -1558,12 +75,174 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.039427"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.111710"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "Nostr stackchain doesn\u2019t have #stackjoin tech yet to my knowledge. \n\nBut the great thing is even if you \u201cfuck something up\u201d as long as you\u2019re stacking sats you\u2019re winning",
+            "created_at": 1677728315,
+            "id": "4b543c257c264d8a6a36ddf17b1d709d444849d529eb7d871011d1eadd833e72",
+            "kind": 1,
+            "pubkey": "de14fe62f97e09429581f9e8fec3170f3ce5e7936a2134bf70c87c5ff229e53a",
+            "sig": "e18efdf38f80d2d2424c0e31fdd1fe25c185ab4a34d822684213f0b7538f508f9a581673eb5a62ae1ff085c40c63a104822c2683553fef102ba57cd9dc9ea8f5",
+            "tags": [
+                [
+                    "e",
+                    "2ffb1d8f2d9c8b17228bb0383d35e7fc8ef37a0d9b055995d1c50cd6d18dd705"
+                ],
+                [
+                    "e",
+                    "a2f1d0809ffb6aa6a3b280e868f7979fefc52b6c9092dce8703f3c8c710b0a56"
+                ],
+                [
+                    "p",
+                    "4075b1664a065b8aab93908438888daef4825b92600abc152b850034be55405c"
+                ],
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.109671"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "I still don\u2019t know what the #stackchain or #stackjoin is. \n\nI\u2019m here to be humble and stack at the top forever. Anything less is an arbitrage on my future.",
+            "created_at": 1677728423,
+            "id": "02974b62cf0dfe7280547f2c49f9e7deadb27fd785ea4e861672cadb53a01d11",
+            "kind": 1,
+            "pubkey": "4075b1664a065b8aab93908438888daef4825b92600abc152b850034be55405c",
+            "sig": "86f3029b243c5f203e4bbdfa6c088cf0d2071f3b5dbf1cb2be6c842e5da60b2ff4de894598acd081ef21129a6bc4a070fd93eb7e1b283b11bceb16ca131698bd",
+            "tags": [
+                [
+                    "e",
+                    "2ffb1d8f2d9c8b17228bb0383d35e7fc8ef37a0d9b055995d1c50cd6d18dd705"
+                ],
+                [
+                    "e",
+                    "4b543c257c264d8a6a36ddf17b1d709d444849d529eb7d871011d1eadd833e72"
+                ],
+                [
+                    "p",
+                    "de14fe62f97e09429581f9e8fec3170f3ce5e7936a2134bf70c87c5ff229e53a"
+                ],
+                [
+                    "t",
+                    "stackchain"
+                ],
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.107211"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "Stay humble, stack sats \n#stackjoin\nhttps://nostr.build/i/nostr.build_91394b1402ff91fdcb0eabd4144703a3a64dfde6b03c5b88db0f06f204edaa03.jpg",
+            "created_at": 1679312683,
+            "id": "e5b6cb0685cbdcc7b4da20039468de9669818a349af05fd723ea08c76cb226b4",
+            "kind": 1,
+            "pubkey": "b0a7265070ed2f660777145c3fb84b69eceefbbd7bfa97731c314ed587ed1307",
+            "sig": "c5a40ae8cda14bb8284f866ecf284ccf6eb56c83d0c0d7acdc683e760baefc7aa35a00f4677dc614968d31c2c60256a548f3fe49d47581b546d1f6cfe1115610",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.104292"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin in 30 mins.\n\nSmash buy to say fuck you to fiat and traders",
+            "created_at": 1680373864,
+            "id": "9284e50da5b05cc55a0547363a6e35f6946246be70cc66c61b9169adac317036",
+            "kind": 1,
+            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
+            "sig": "fbd262af4c834b3dd2bcbe12a7ad935225cd17bb9a63b15c5f822d39c1980db4690e9f0191112282b1dd44f946bb245ea8b8818c5d9784a480b9babc9177386e",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.102333"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin\n\nhttps://i.imgur.com/GGxClnO.jpg",
+            "created_at": 1680375802,
+            "id": "420dc0fd98a23e4ceed21e8b1a5b98d0312222f9e9282d93d3b6a7f92c4d66f4",
+            "kind": 1,
+            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
+            "sig": "3d3042d3c2da6db2f2658c50515c82c9ad4668370e150c6ecd7ede654b6e4c8f121bebc54e625f2d27f0a849b1e1f51c3ebe17732c814ee50a34e92f7aaf20c4",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ],
+                [
+                    "r",
+                    "https://i.imgur.com/GGxClnO.jpg"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.100035"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#plebchain\n#stackjoin \nApril fools smash buy into cold storage!\nHbu?\n\n783521",
+            "created_at": 1680382070,
+            "id": "39703fbc837dbd498e4fb95f60e88219c8a3e40122299e0766026e7f374e9719",
+            "kind": 1,
+            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
+            "sig": "590919f0d5eb062ac9a62e21702a80362d28dae9f0378448b61ecd7cd22e36e0d126c0d4907eb6bf5af3c916b50c75de910318a0c6afcd318e14f4ddfe260bb4",
+            "tags": [
+                [
+                    "t",
+                    "plebchain"
+                ],
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.098113"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "Happy? #stackjoin\nhttps://i.imgur.com/JNC0oUC.png",
             "created_at": 1680387856,
@@ -1599,127 +278,27 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.041036"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.096075"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "#plebchain\n#stackjoin \nApril fools smash buy into cold storage!\nHbu?\n\n783521",
-            "created_at": 1680382070,
-            "id": "39703fbc837dbd498e4fb95f60e88219c8a3e40122299e0766026e7f374e9719",
+            "content": "#stackjoin",
+            "created_at": 1682451641,
+            "id": "c70778a7503f5ba87b3b7162266bb387deedbd51b916473e61c711ce9ba1aa50",
             "kind": 1,
-            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
-            "sig": "590919f0d5eb062ac9a62e21702a80362d28dae9f0378448b61ecd7cd22e36e0d126c0d4907eb6bf5af3c916b50c75de910318a0c6afcd318e14f4ddfe260bb4",
-            "tags": [
-                [
-                    "t",
-                    "plebchain"
-                ],
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.071223"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin\n\nhttps://i.imgur.com/GGxClnO.jpg",
-            "created_at": 1680375802,
-            "id": "420dc0fd98a23e4ceed21e8b1a5b98d0312222f9e9282d93d3b6a7f92c4d66f4",
-            "kind": 1,
-            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
-            "sig": "3d3042d3c2da6db2f2658c50515c82c9ad4668370e150c6ecd7ede654b6e4c8f121bebc54e625f2d27f0a849b1e1f51c3ebe17732c814ee50a34e92f7aaf20c4",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ],
-                [
-                    "r",
-                    "https://i.imgur.com/GGxClnO.jpg"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.073460"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#stackjoin in 30 mins.\n\nSmash buy to say fuck you to fiat and traders",
-            "created_at": 1680373864,
-            "id": "9284e50da5b05cc55a0547363a6e35f6946246be70cc66c61b9169adac317036",
-            "kind": 1,
-            "pubkey": "a8844f9992b4bbb5203ce4bbb25fef30f700dcf9f6f66904522e01ab295ae1cd",
-            "sig": "fbd262af4c834b3dd2bcbe12a7ad935225cd17bb9a63b15c5f822d39c1980db4690e9f0191112282b1dd44f946bb245ea8b8818c5d9784a480b9babc9177386e",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.075133"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "Stay humble, stack sats \n#stackjoin\nhttps://nostr.build/i/nostr.build_91394b1402ff91fdcb0eabd4144703a3a64dfde6b03c5b88db0f06f204edaa03.jpg",
-            "created_at": 1679312683,
-            "id": "e5b6cb0685cbdcc7b4da20039468de9669818a349af05fd723ea08c76cb226b4",
-            "kind": 1,
-            "pubkey": "b0a7265070ed2f660777145c3fb84b69eceefbbd7bfa97731c314ed587ed1307",
-            "sig": "c5a40ae8cda14bb8284f866ecf284ccf6eb56c83d0c0d7acdc683e760baefc7aa35a00f4677dc614968d31c2c60256a548f3fe49d47581b546d1f6cfe1115610",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.077121"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "I still don\u2019t know what the #stackchain or #stackjoin is. \n\nI\u2019m here to be humble and stack at the top forever. Anything less is an arbitrage on my future.",
-            "created_at": 1677728423,
-            "id": "02974b62cf0dfe7280547f2c49f9e7deadb27fd785ea4e861672cadb53a01d11",
-            "kind": 1,
-            "pubkey": "4075b1664a065b8aab93908438888daef4825b92600abc152b850034be55405c",
-            "sig": "86f3029b243c5f203e4bbdfa6c088cf0d2071f3b5dbf1cb2be6c842e5da60b2ff4de894598acd081ef21129a6bc4a070fd93eb7e1b283b11bceb16ca131698bd",
+            "pubkey": "3f770d65d3a764a9c5cb503ae123e62ec7598ad035d836e2a810f3877a745b24",
+            "sig": "e5d7a8eaba2d0246ffcecf6bd6e68ddd0fee28a45f8c641a4574070f6b60e7698a429ea05bbeb7d25c0334a5d8551a0c9a575d6405ba08578782e6fd6519c4c9",
             "tags": [
                 [
                     "e",
-                    "2ffb1d8f2d9c8b17228bb0383d35e7fc8ef37a0d9b055995d1c50cd6d18dd705"
-                ],
-                [
-                    "e",
-                    "4b543c257c264d8a6a36ddf17b1d709d444849d529eb7d871011d1eadd833e72"
+                    "eb3661ec992eaaa29254067d4a92c20561fac6fd44c32b55ad726532a80dd0ce"
                 ],
                 [
                     "p",
-                    "de14fe62f97e09429581f9e8fec3170f3ce5e7936a2134bf70c87c5ff229e53a"
-                ],
-                [
-                    "t",
-                    "stackchain"
+                    "e2ccf7cf20403f3f2a4a55b328f0de3be38558a7d5f33632fdaaefc726c1c8eb"
                 ],
                 [
                     "t",
@@ -1728,85 +307,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.079636"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.091344"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "Nostr stackchain doesn\u2019t have #stackjoin tech yet to my knowledge. \n\nBut the great thing is even if you \u201cfuck something up\u201d as long as you\u2019re stacking sats you\u2019re winning",
-            "created_at": 1677728315,
-            "id": "4b543c257c264d8a6a36ddf17b1d709d444849d529eb7d871011d1eadd833e72",
+            "content": "#stackjoin",
+            "created_at": 1684072927,
+            "id": "ed755bfc45a39cf4cd192917a8c3bf80c2a7b38b394a868e0d24e565828ef28f",
             "kind": 1,
-            "pubkey": "de14fe62f97e09429581f9e8fec3170f3ce5e7936a2134bf70c87c5ff229e53a",
-            "sig": "e18efdf38f80d2d2424c0e31fdd1fe25c185ab4a34d822684213f0b7538f508f9a581673eb5a62ae1ff085c40c63a104822c2683553fef102ba57cd9dc9ea8f5",
-            "tags": [
-                [
-                    "e",
-                    "2ffb1d8f2d9c8b17228bb0383d35e7fc8ef37a0d9b055995d1c50cd6d18dd705"
-                ],
-                [
-                    "e",
-                    "a2f1d0809ffb6aa6a3b280e868f7979fefc52b6c9092dce8703f3c8c710b0a56"
-                ],
-                [
-                    "p",
-                    "4075b1664a065b8aab93908438888daef4825b92600abc152b850034be55405c"
-                ],
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.081569"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "#StackJoin ?\n\nhttps://media.tenor.com/PhrBMdmneMEAAAAM/maybe-mayyybbee.gif",
-            "created_at": 1677720584,
-            "id": "380ca44e45c6783a36fdd69a5ef3b059d5498c190d9511f1733854416df4cf8a",
-            "kind": 1,
-            "pubkey": "408e04e9a5b02ef6d82edb9ecb2cca1d5a3121cb26b0ca5e6511800a0269b069",
-            "sig": "794ae49082622841907d0e3708eaa344675b645f7948b3c8fc2be1368b8a2608718df4e5d88bcb7ad4c529e12532a76ae359b65012a72866b2692f17e43c08d8",
-            "tags": [
-                [
-                    "e",
-                    "e6e26eee16d87eef2933a15b8265794f5a920bdcf00f3be2e36fe37241d02244"
-                ],
-                [
-                    "e",
-                    "83d3130265b5b0cb062c5ea989edf96684e3f1d4e750ede784187852b25e4e2e"
-                ],
-                [
-                    "p",
-                    "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13"
-                ],
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.083405"
-        }
-    ],
-    [
-        "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
-        {
-            "content": "Can do #stackjoin on nostr?\n\n\nhttps://nostr.build/p/nb428.jpeg",
-            "created_at": 1677685467,
-            "id": "e6e26eee16d87eef2933a15b8265794f5a920bdcf00f3be2e36fe37241d02244",
-            "kind": 1,
-            "pubkey": "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13",
-            "sig": "6de15ecb34c34b3ad1cd472f6e9221a8e6347fabbc8d1b900f7db677760624422c64d4621d241ef79a6c639febb94082a63b0d12b46a04381eb161df10c83da4",
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "f3216c28a0cead0d5bb91f62228f7ba138993e45e1ce58891707c14ae21ec3044fc4d6e75677b97e97c1e91ee1f6bba3616dae325e93ef9e4b9597d626ed5550",
             "tags": [
                 [
                     "t",
@@ -1815,24 +328,20 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.085394"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.087843"
         }
     ],
     [
         "EVENT",
-        "a18f60c2f37d11edbf9b804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "Has anyone started a #stackchain on nostr yet?  If yes, add this please. If not, let this be the start of the chain!  #stackjoin 369.27 USD.",
-            "created_at": 1677216287,
-            "id": "b0cc9abcfcf26817e576aec528324c0d49ff99e24bd6ec6602285b37c79b4818",
+            "content": "#stackjoin test",
+            "created_at": 1684072993,
+            "id": "6bd2c8204671ceeadb90e492e01f39418cf721c0f9d2c399927dc6ae735b95c8",
             "kind": 1,
-            "pubkey": "bc815d16028c8b012103018596386b77cbd6ef27f10f1992ada4986104df0cab",
-            "sig": "095291a4f6f9222476bc1b704dd6b7bfea4825b07df6f78b62a836f76a9bee2dc8ead2134b26d121522534d41f085266329fbf92251fa83cb78e2266c03880a1",
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "91b4c14f9adb0c9762b89b02b2739c44a250b767d9977d693cc69149de8851adbeb7c2459aa961e376e7f50c7ead544d620695296175fa385611327a2aec8815",
             "tags": [
-                [
-                    "t",
-                    "stackchain"
-                ],
                 [
                     "t",
                     "stackjoin"
@@ -1840,12 +349,1503 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:07:24.087516"
+            "datetime_event_was_queried": "2023-05-15T21:16:54.086035"
         }
     ],
     [
         "EVENT",
-        "097401acf37e11edb773804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "stackjoin with hashtag #stackjoin",
+            "created_at": 1684073021,
+            "id": "da372fd491429eeededcf48e91ed099906a40b6c8349bca5e8f7a05c1dff2095",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "a40294265f94828bccee4119d14b1c32555ab13dba05712f2b2e6d24eae7a72bba5a82bd0f9d7aa8ac24ef95e3a5a82b6e05694eec697fa870b853e81262d7db",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.084206"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin smash buy penis\n\nhttps://void.cat/d/UMNHMVXK5UtajXGHkVXwty.webp",
+            "created_at": 1684074867,
+            "id": "b899ac779613f932a1f2d95978221bc1feb8a71f5bf56b3a2c19f57cadac598b",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "f4376a8416922b1caff148a2312a0bc38dacac492020003ecfcdb5559e84d1604c68f65052799c6e1d1fd37b640c833f90f58c3ec12af2a2e2b53d1b7b792bae",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.082646"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test",
+            "created_at": 1684094101,
+            "id": "94e84705ae66849f4de301200429727350ac72b24ed2f48b3be7ee8db5378727",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "7082b497eccfe4c0e02619cdfb474c407dd7792815e0024bf5e8ccffcc6fcef68ea3983632abe700fcd57dd5e29974063b9bc04865f7378103c59ffe0af97d0c",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.081040"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 2",
+            "created_at": 1684094169,
+            "id": "b885c592c6897e90918d50158570a99b7c13df2782166a261b6503a3041d9603",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "1a6cc4755fea91cf37d90bc749afda7e2666d96474c0fe8c01eb6aa376389ac4fd95753571899bd29e8f245fab12eb6069840242941253368ab0d31ad05b3a0c",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.079343"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test",
+            "created_at": 1684094215,
+            "id": "0c9c297f91f41532a5f4f0184269092eb691180256e1b45373e0c964d3719947",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "94eb8a388171f1dab636c9708860be7029c74550eed6a56e3481227829754ecab5072145719fc27ce0520b093af85832df09f1b45f6333543e903314db2d9f22",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.077807"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin add test",
+            "created_at": 1684094290,
+            "id": "fd36e7864f0dc1009a12368b7e2d0b110a2b0eb173ece55180d9c064584b8d31",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "5a1eb6ec158d9ab247306311c6244181202a89fa60408e8611080e367416c321ae31f3483190abc4754486bd6f891780325c85ce77f91426b093088835ec2ca1",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.076164"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test",
+            "created_at": 1684094666,
+            "id": "caabf3759b6e1d7ccfe8b5ed64be7a0a2c53612b5f34295b34e7043ed421fe35",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "47773f83827d7acaf0979b1771a59c1ad627f7247d91a8d23f551c028fdf30c3e919790f04a6735e4f46cb8ec97e0f2146a0ca3128a0d47bdff08393f8674843",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.074405"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 3",
+            "created_at": 1684094682,
+            "id": "62d31a422001f6490f309e5ff8bfa4630b48e7bad5c5afc7cdb88a0781251f24",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "18d657e6d2ba10c69fbcb4c5c27441eb09231cd46b221737018571349511aa801e113cec369598eb851e3c74effbdd9d3b1297b96688c118169629078bc322b0",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.072188"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 4",
+            "created_at": 1684094818,
+            "id": "84ef72d52eca7aa3a20796b627a75bbfc172ac625443a51d03b5cb18f5208711",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "ff217f17c32d7b2d83cca2c997acafd3b8fbc614b150b493c4a31b3406b452418076481d387e0556208b9ecd7d985d20ef718f9bcf632c9d7437b41c13ee89bc",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.070291"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 6",
+            "created_at": 1684095733,
+            "id": "8ac2f8b593e54b589be0fda780cb71dbf65e1b1c9619a59c46c778e4b3bff4e6",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "5167490f8d5716f8b7106e590136fd0bf0f41a7ad72a97f4fa97651636fedcdc043b643ef5c5e0165564bc5c1a8255392eecb193fa595c92b79093a3d5d0688f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.068676"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 7",
+            "created_at": 1684098144,
+            "id": "67f1d236dd26d6b2fb8e18d2dcec3c25b38b6c2e0c87451a8cdbbe00a3a476c4",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "3748fb300596b87f7715175974c27f57cb84f3022607dfeba1c5775c3c3d7d037c40ff462e039c399fc03550265bf53ab3d161927e348c185fd0b849186f9b6b",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.066842"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#STACKJOIN test 8",
+            "created_at": 1684098829,
+            "id": "97a7590fe5c199452c605c0065a5536a480454cdd94cd0f627adb17614122de8",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "68d0842c63381d08bf80b0eeafd2e61af5da27b5787a7e844d1f13bc9cdd4013af4ac960944358e1f721387a354a1c5ffb1a628a8d67f1f279cb99664b297160",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.065432"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 9",
+            "created_at": 1684098855,
+            "id": "79bfb24340e8530978eccfe45d623611e851b09426ffc64e4ef2928cf39a3f62",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "c55c1f2eac25b6ac74a1401fde6d2732530ccbc877f05c55ec304a3c0eb9311dc6a5dd9820b3560c731a63e18deb2ec1260d1cb42c08f1f34ccd243adcf93d64",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.063955"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 10",
+            "created_at": 1684098895,
+            "id": "4bd9b103a3a6333cb53bded01058e408714061c7cae541a59baab4f0083dae5e",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "c09cc5358879245b92a16e71e3b24a6061f16874a17b375237b281442f8db054eebfd4f52f23916e2c0994efc9eb21ed8bc92ef0e6aeec40049cac87ee6a809d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.062519"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 11",
+            "created_at": 1684098939,
+            "id": "fba94a42ed682215b329d460f4f7aed576dd2cda51298c3fab9cad3af221efb4",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "a46a25ef790ffa43f3d952a988ed44868b585f51757c5c1906621573806d1882d8318bbaec6084b4b97008e46068b59b49db7449844c95fc29c8f5399f22169a",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.061087"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 12",
+            "created_at": 1684098973,
+            "id": "bd4834add8f04ed0bc03ccc98f2fe87248f134b0c6054809aed90bbc6da309ed",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "f488d8ee0be81b8dd18ab96b4880b729a14fa5e46ebc1aafab37ed57a499fb87680b0def6ab0e78031e8fb16f21d7e26afcf960d86834d54922d6d9affcdf5db",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.059718"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 13",
+            "created_at": 1684099055,
+            "id": "f1586546e1d02d81ace53d551f5e24c2924cabd9e389d594cbed61029f9bfd13",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "452dcc138935da8fb6efd4df8183c766659d1112de04a9ac47d5a7158d96585e18b023b53092a95683d63ec0803ccf687388d9380f0c1107dc485c4bf459b615",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.058135"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 14",
+            "created_at": 1684099144,
+            "id": "a84cb762578eb2f910fff1a4d009b49a467ab299938dd31fbbaa8b634c8a0e82",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "6739ffd45aecfd58aa64e39ec9f7e4756068afa71a5aa01714cdbd502d0b3caaac6e0e6c4bee1bbf434d2d420b95b02368b2f57850051adba9df083afa48a0f0",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.056406"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 15",
+            "created_at": 1684099188,
+            "id": "e12c9918b840e913f92fa74c0e6289f7c1da05fa86e73a4d4dee31a5f9bd1b9a",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "63aa1d032dcf965046f0939743355e7bf192bb154ffb95b19298cf67c65475c34162fc46ed6004d40abb8d95e2babe60d199355c2b4b08b655dc98499974927f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.054876"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin 17",
+            "created_at": 1684099229,
+            "id": "a4b049127db517d58d8b1a246f64a598e8d61f5cbf294c786201aa6259786371",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "cf7403b028a98538bd4d456750a90c1fe2d8dc761cbdf509fe41badf3385b70e46d7cd46d12d2a18ba28f48ae658ccb7a2f4c3d7fcdb7445d6a1f289206baa8d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.053311"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin 18",
+            "created_at": 1684099337,
+            "id": "3a85bfd5312a384c48db48ba675ad6a04d50342d74e879d430b3d3f968d347f7",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "19f9fdb0830f85bc04948bb34abcfdae715b1097757d0461d7d5501c5fba5cbd3f75da7e2182f0f9007d77db178d14d8d6eb1c62b7eb1a80605f176aa8c53aba",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.051886"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 19",
+            "created_at": 1684099386,
+            "id": "fa17b33f949254310be8eb7802fdbb0a9867bc606059e7430ba76a3486ac850e",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "11bece7166fb4ce6b67cb8fe006867b2af5dac769d57d485d2713f3938cbaba1d62d58b7e8898477effa9c9363589bda08065b44daaf7f523d1974d831bf160a",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.050403"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 20",
+            "created_at": 1684099416,
+            "id": "50d2fcfd1b386e045cc6427ce087223a19117fe548e54e9351989f98818a0ccb",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "3909a33b93e3637dc8d5841a7c443d1c919e9a02252b377ce76b6ed35361adca27c2cf65d387fcfbfa7a97bd0f494a0c083eb325f97b04accb2d16402f6066cf",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.048933"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 21",
+            "created_at": 1684099488,
+            "id": "f8c57141657cd2db99a65e7bfbca2fafc360b73ca358d96e2ef0a9f7a4790607",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "2355dba3f2be940ca5603a4087c3f526fb05c45c1403adee3f2f651b57d50f146da3b7abf784371fe367c26e8b93f2c995f3387cbf835e8fa6154b0dfc02fb28",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.047127"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 22",
+            "created_at": 1684099513,
+            "id": "9b704e2be546f3332f03c8255cf4f6e5fc12bb1f1afb3cc88f36f7c694cf721d",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "e4f4501343adf2e411c886842d058b287b6607d5cb4e8df2e7b0d63f87304871aaf7b291a6155b3a83789f2d38287262d1fae6725890eba4bbaa081ad4922b99",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.045162"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 23",
+            "created_at": 1684099539,
+            "id": "5a1f1a7419c229cc67877c4887a807cf3609d832f0f39bf2ee212cda82e10c31",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "962e17507ab556994572445bccff75fbd6fae036c188c1c00073aaa315590b8023570a15810dcc61b6fd1737dfa4f25c8e492140909dad1d9e234dc7c323f855",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.043659"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 24",
+            "created_at": 1684100102,
+            "id": "4d5889b9888cad87ed97e75297ab2db0838cd062d022f5a0c78da280c2e2e835",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "db0035885993c721d60e628ffdd4a51989d1e8f9952f8a75157fb3edef5b6fbf2fa0b6d412b06efbf41c342fa8fb7bf1f2407132ee9b34697a0be7c8ecbdd316",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.042065"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 25",
+            "created_at": 1684100166,
+            "id": "e71bdbb739ee4d13d9dba53f8106f9f904f5424ca161de784caa5cfc7adc2af6",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "e189b3fb04e87f2bdd6e9403729c369420d6cfd2843fe4e332524560a30fffbf1842338f213c715a253a9af8e2022026e5b6ee07c4fa9a0cd591c68f1a2ad59b",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.040658"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 26",
+            "created_at": 1684101356,
+            "id": "bba85ab6e1368520fb9da5c8e9a16a988f24e298640304c895b30fa47722c7a3",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "0824db163f3ee58550d5677300579805d94aa6942fcec89295099cffe1c86bf0d4db183bbd814580e48d1205b91a527dcce932e91218ef485089683d27edcb5a",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.039214"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 27",
+            "created_at": 1684102740,
+            "id": "d5fb96c52b634fcc2f734594bc8ee4338a40094bf089ccab9e031702f8c57add",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "1a44df4d9cea51f3a26ceb10e26ebc7ab5e5d0d2e512fe4de127a36ae042d9c4c050294bc4d877563511d351a2a3e1401ab2fdf4e8c56a8084ee9d0973d16a7f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.035520"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 28",
+            "created_at": 1684102864,
+            "id": "05d8fc11c3b8db3bd65598b832fbc7ed2b54d29512d6156054d91dd071e6e240",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "a99636f05ef710095a1e32ca0ab9e19ca9e6af11ba3106e3f569ea47b173e293efe2cbc01fc78ccce90dec2219e3aea617b5f4af147cb1f2861e489c4b3d562d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.033313"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 29",
+            "created_at": 1684103114,
+            "id": "2cc804716da9a83bb9b9bd63d4a69ac33247efe03091c83a85193ede42d457c7",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "064c4c2c92829507fca3459e94e76ace4bdf021da7d62684a3d740fe2c0c610bb48702ab4bc39fe0dde56fe85764009e2d1d93ec2ac5bb11979734d66739caff",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.017839"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 30",
+            "created_at": 1684103165,
+            "id": "1c65922cce3ae95f908ad928f706357d8db0dec694df413e1ccd1c88e2d84f26",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "b77a87726a71c30cc167f4bd490eb053c6ea40ac7cc81c0d32486dbd1543a5e68a04d902df9f84f98eb41ecc8e6451e56d57607a9fc3af479f60b6ec6d44a5a0",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.002063"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 31",
+            "created_at": 1684103204,
+            "id": "136400fe3f8f3bd3f69e100c3e8f2d772727d94967b2746d6a7126251e9efc95",
+            "kind": 1,
+            "pubkey": "c029e34aade01935b96cd04b811000e71ead65cced372aa1a382b3fb5c68e022",
+            "sig": "e8fb516a512a4842e546c15e92ba3db1fc974c632fc6c325afc66969b57c1ccace9dc83c89370da9d99fad0fd03e2f062d73b4d252a4ae208cc337f320d2f463",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:54.000714"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 31",
+            "created_at": 1684103289,
+            "id": "6d6a7ec9a77fa55655fb3a25aab2994f4c9849860d288c0977c7ea7c21583ab1",
+            "kind": 1,
+            "pubkey": "fc87d30789d8a534b59073d602d9d32070b71b903ccae89cfcbd9a7bfa2110be",
+            "sig": "0954eb11a0c49b6cfb7545b883d24cb8587c1178b9f795055407da0394265269933769b4f1fcb418747c39a75a550b9f768b8fbab7b967aa1b8d5c968b43c204",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.999359"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 123",
+            "created_at": 1684103931,
+            "id": "e4224fd7aa2aba97fc3a8882b136e51f13f23d1a98d6f8041fb5b24eab8b3b46",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "de0328a318f30dcff2e1ca4b44d9cd0f98db25570ae80c0dbb2bb40d50a353e263f896668ba1ef59a8376d45b90829e479455ee4bcf68296243ff283743c86cc",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.997955"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 32",
+            "created_at": 1684104028,
+            "id": "59f4b5fafd476cd131ea79d41bdda7b5cbaf5b8bc93836cb63ac5010a3655c89",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "1d1255b79c4ee938afd32d273883934949df3ff216f4d5113acbb9cc84185078b084ca99fc5d12b11322e0d0fb64d37d1e38fe77ca6401f2d347cfabd709c95b",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.989160"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 34",
+            "created_at": 1684104101,
+            "id": "3374fea40f331676e0be5747052ebc11d2d9c062cf94625c6df183bd337a8c94",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "cc0cb49a4e28e89bdb4a4c540f1ea08031af240e6e93bf9de3355bfc21098a3f576c5dc36386f8357f2af6aaff92b094c097eec2e964e2d1b97d694ab3ef928f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.987831"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 35",
+            "created_at": 1684104149,
+            "id": "92a6d12245e6292567cd3b6320b8567b0df83ad91bbf57ae61bf17d7b74c4414",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "6e877b2a30f7a5897a7a9bfb3e46a2e88707f7209f031c311589505feb6eb6479580161197e78c602ee6f5ca128dbb655d2140f4a63e17b2633af517ff3c889e",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.986532"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 36",
+            "created_at": 1684104193,
+            "id": "16bed01d7a66e2ca246c9ec48b8f20891a819b9fabc230f069792a5f68fdcba4",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "a06ae387849c322192ed3b50efb96336971365828f838ab0034366e5e031be3b78e9aff36ff610b18c51dbd2d36c0347909e555806fac30f99544de0266fe997",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.985261"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 37",
+            "created_at": 1684104229,
+            "id": "a124a4c3eea28303de92df2255f224a2fdb2e8ed3e4d8f02ac45ef0cbad445fc",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "05fbea3cdc40931d9d69e3e2046f47309c0cd6c9c012e638f17efd55b76f971a5e85682491ff1d5a8dd0fa794eda3ccc524c3f0114a3201221277f5d2811f3a7",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.983918"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 38",
+            "created_at": 1684104469,
+            "id": "792609c0d8c553eef562d8dcd8eb2543dc2c60b35ce969ba241eca8344050066",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "10a1306b3de9c078378ad438e9c4f824a5de62f0b453f79ccacd423bfb912fd80425cea694bf2dc90fcbe94df6614095f74d2d0862f54d43b171d42c4d07f32d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.982916"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 39",
+            "created_at": 1684104776,
+            "id": "c2b5941bf2f2f4049a7ba3313f05785be1022e043ca73171796fc6b928401e5c",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "47741f3b2e8bae2d347cf07122bfb38fb76acb7ba7516326fe93253fc8c3f4bf550d4003ef708d94e869553cdf80bd4fabb2c2e17eda6d2c56a9c43e940f0d2f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.981951"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 40",
+            "created_at": 1684104826,
+            "id": "c1107649b75c33daad92581ac4196747948eab71b1257ad844959cd9c1e20f9c",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "73b5627105cddab4b39c1e69d12b87aec698fcd3dccb8c89130fdd584460bc6d4941b9f7188583c7c3604b8a802e2bc873d1c58080e5fc55c85d7754c4ba9472",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.980939"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 41",
+            "created_at": 1684104952,
+            "id": "74ce77f1299e5dd94430235a5ef31a5b0514b249af00d7b23a799240a9f75ded",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "b0089f82eaf739fb1478bd1f8652361f86404488ef6409bc792db2600a291ecba50f3f3ce432ef2004e3b7fb853a587bf9f715a1c9cb87622424af5169f58fdd",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.979930"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 42",
+            "created_at": 1684104998,
+            "id": "90a650d2e5fb17ca61f7255890b0aa1bbe349925f5c7686180c2ad913667910f",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "2283e44223ad9c945cc4f01683ced420071739479e3cd4d47776403aac992ddc19df4130126196b87171ad7c0dc806d7dc0c1a3628d6805d802e310bc890a25b",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.978956"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 43",
+            "created_at": 1684105152,
+            "id": "7d086ed68bb88154963c171dbdb68dfd4cf17a3e0f007897e37739557b218eb3",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "158ad616f5efc8f210e7ac04fe00a93cedb436cbf3a99513074ccfb3a616dbc3bb5e940c6aba82afb72464b9e793f8af90dbc93e00542ad41b02b544db3ac41f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.977944"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 45",
+            "created_at": 1684105264,
+            "id": "0cf0a0e1c41300ae406fbcf07026f174ee8548053eb4d2fc6287d500d7d26cfb",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "38e4b794aa80bbf251cc8709de6e589b701578694e988a85a19f9a262fd8fc2b4d388c2ba5aab47a8a4625b6197ad731acf31e659c8bd76186a0d31bab6630f2",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.976640"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 46",
+            "created_at": 1684105326,
+            "id": "734ad2a243f977a57ada8da82c1bcc6145ef50f5941f8a3e6fac32a2af3af34d",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "dfdc9bea61263e0b0e605091a168390ef55e516e5e7259ee918f6747f6d1714a6ccc1db0340959c49062e3d21f03300026325cfc33f022e081646a1b389bb90f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.975300"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 48",
+            "created_at": 1684105347,
+            "id": "7664d768d0964593d9dbfc237e92332fa10f6c83e82ced5423a5f8a480a3e777",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "130d8a952d6e55d8869a848cb466a8906136c60d83ecdde2cc0e33758f74b0b32956c881246430879991502b0c6fb8b116c0e95f1f03647d0324c6cc20ae9dad",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.974111"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 53",
+            "created_at": 1684105477,
+            "id": "bb93861c888ecf7097331238d4147fb08f7600a296796809f7954d45fb1275fa",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "c5efd1eb846d12624b38a9325e6fa026fc22b1bf325c75adb84c4b0834531a209da43a5c208b956247f4677fad8af811a3f36833037e66b971ab0134685b81a7",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.972998"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 56",
+            "created_at": 1684105963,
+            "id": "7bd85b5075c9a32ab804abb27569881ab296244df96ec0a1375fd2921e46b8a8",
+            "kind": 1,
+            "pubkey": "3e1aae5648d675a5584eab30967cf7ea1cf3576e01141004cc4d58e9cbf91b00",
+            "sig": "91948f5b93d70bbd764db89b1eb978cd27531c16823ed7c2980e3ef8cde1e2a8bafc2218aea308e24ce715298eab50b23e01fa5b7fe7a5daefbfb36bb53cc036",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.971806"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 61",
+            "created_at": 1684106113,
+            "id": "1a8820e2c133795c46b1d06958f365cffdec9268e40445b593dcd507f1142c96",
+            "kind": 1,
+            "pubkey": "3e1aae5648d675a5584eab30967cf7ea1cf3576e01141004cc4d58e9cbf91b00",
+            "sig": "9b7c5fc1dacd632911b78d12697f0fef849bea838125d837e60d20dada3a9f50edc5865086af49d21a24bc9ed29eb91bb95d2a1fda4e0afebc516aab5d0d3a86",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.970734"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 54",
+            "created_at": 1684107754,
+            "id": "f36f7d89d08e13bd1e86bad4718c66b7d2bdb9fdaa0bfc0888923661aca771b9",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "b75e121623310ecd0211b64a6e2ad6ea2bcf6fdfbe4e45918565c73600bea560066905753961d33f5616ef20772992a081d83f73892f38466f2a5efb6a5f7fff",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.969831"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 55",
+            "created_at": 1684111741,
+            "id": "25ef72c66f3ebc2eeb4dd72df4af8e5d00b6ffac2da3ff78a928bd04769d6c34",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "004017d20ed765f15ed3b82082ce852c74162cc273c695b0cd497584a1b7e6ad2683ca09f4e03eb2b763222d06fb8e3f7e34eba5dc5314b9facc4b2b9d81e2c8",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.968927"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 56",
+            "created_at": 1684111768,
+            "id": "383fa7b9b0c4b8fc05076e6cfc7f40bf3e51c8c79438d18212fd7cb9542df2dc",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "c26b7c6b664482a2c306f7e46731f6900cdaa8df17aa33cb5c073e5d9f63419965a9561abfb13ab22cbe3483623adbf119e72914072fe82813c9b15c2b9dae1c",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.967994"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 57 from a different machine",
+            "created_at": 1684111864,
+            "id": "f4080d6ba8939f1f719bb626b3f7483877052a22cea35d02e5354303289aa23a",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "c16e1ef8e5971b79db99f87f3e10528aaace65fae4167434adf1ae9a7082aaefac69a5c7cbd5765ddc9fc70fa755fff0bf7ffd3c2c7785ff4bfacea0ea670a99",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.966919"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 58 seeing if connection stays open",
+            "created_at": 1684113346,
+            "id": "253a4cabb9becae779a33eae18be7bbb9dfe288907b5e2bd32ea32ff19a84bb6",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "827ab472b995c1cb815589e4fe9e558ab42cb580af709471ceff8fb0a0443de424d34914a980394096ce7de39255114c403026e5fd9a1aa532216d8f2313a110",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.965843"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 59 keeping connection open",
+            "created_at": 1684114213,
+            "id": "4a6c174a48f1f9e2821107535b8a91dda944ae776c278653272ad52f8faf8c40",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "edaef9a8782f23517f58b3f073bd198292ae01a947503fae1d4c924f6d4747cf130137278571f098b6b711dcdc4131b4a458991f308a5508f8511b28ae5053ba",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.963645"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin 60 keeping connection open",
+            "created_at": 1684116136,
+            "id": "b7ed93c12c63ea9df1ba07217f73fd332a7020bca12dbf2e9f8857d9af42f159",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "69ea020b0c0509fdc631ec0ede8c5a6d3cf314cafc866e1e543505556557c9a17eed45474930fec78b0a9e275e91f8c25c0f603288d5faf2f5bb38bd2613d6e5",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.962556"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin 61 restarted application",
+            "created_at": 1684116345,
+            "id": "0b8d2bc9ba518bc647c0fac9f185d98b29d51934a6227e4e33a8a0509ad61adf",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "b96a506e65e414315757abb21c7186335f0313e56519ee3b1fa8e9e7166bfb5b7d2be5ecc7ca355650bf1dd6c652331c17885d9d8b3b0e386eca7257f286b25f",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.961420"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#STACKJOIN 62 restarted app",
+            "created_at": 1684117012,
+            "id": "3f89af9c2f38b9eb690e4ee6951dd0bce3fc284d53cfb07b9ae72e7c57ae4b35",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "3c7c5b2afa829f484da2f17aa9fa45ff8a60477fb6ddd28d642d2ea773f2471a18b04fcf333a248f4d4135444c677bf7ba43069eea5a483dc37bcc161d52ef77",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.959702"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin 63",
+            "created_at": 1684117553,
+            "id": "377030503ad057e8c246da7665c892411246533940ba298cbd6d8088adeab118",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "3cfcbd5b8f680b1a34a0e5f01f6e64b5c5462ab2f8735431cb65eda03ef9cc34cbce3bc9af6fc1fac0ec4d71f78fbe53db5a00492eb7719d470a135c923eb4ec",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.958784"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 64 ",
+            "created_at": 1684118451,
+            "id": "bd62b18d1cc9e88d5656d4fcebb3f554d49c49d6b80fd82dd3e0ac950954f25b",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "7fb9d54638ca40c8319a83fbffa3b04a6cad42af4eeb67bccf5d7f1c0f68037999e96f08fbd380913eab9c296c8fb9c585aaf69ef79896f46c75da68964a787e",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.957691"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 65",
+            "created_at": 1684163222,
+            "id": "db3112afe528deedc10d4143d92c512029460529258774a95123d9d30bd21f74",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "b90f7e97fed42af033c3b2362bc8ce1136cd35a10eb9a2aa1bff59262c1a3181a89d1e05724a5f536c9698e0ff7be35763620c118da7e5db7f99a5e29b50a721",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.956835"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 66",
+            "created_at": 1684163835,
+            "id": "07d1be35267a46f908ad260372f9c493807cac4d3889c1642e952b4ab823190e",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "e16f37c1de957fe7f1dc7521e3835b23ec01e7dbb5dad8835e700715d6dd9d250806a39acaa4f1cae8bb5643aa389cdab41c27c0e5150d9c3b1a4a90cf030c1d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.955718"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 67",
+            "created_at": 1684193165,
+            "id": "abe7c7a98ef515f8dc5b76a36ece2f0910fa797a35f175ae8604db710d999ba4",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "40842b045cdd5fd2704221675256caa654510dea18d8deb362e10208f4cf1467f9a93c93cd6f4f7d620c4697e429757f818f8fa14fa4a2355f59a13c0c37c040",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.954042"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 68",
+            "created_at": 1684193280,
+            "id": "a6329ff15ea2ddaf7bd3153a25c0a001bfec172f4b750b0e75d6ecbb66ac2c9c",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "e6420dbbcc7775cbc691147563220f64b4399a3929751bd0ac425f0d7b3660a0c962e790c2bf627a36db35400b88cfada84370f4da0a43d2a2804122222e0ae3",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.952932"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 69 nice",
+            "created_at": 1684193463,
+            "id": "cca7f9b0ba6d0a8ae640b6610d43766158e4b0361ddc4e4dc7560efe805db7f9",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "4542c8270f9100c5212cfe23b2eaa8fe66c8b3ffd1aca58b7d73dc34d80d893c798310c828b7910810ba1cce4187422d21bde8ac4a5056ccd5da3bda933563c6",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.952107"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 70",
+            "created_at": 1684193565,
+            "id": "3e10b82087be8925abf7843058181c7e43800aeab9cc1f95827e1a4d07caccd7",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "4b6b3ddf9e8e20b43fefd84f99b5187755f1ecf70ba3471d80eb28c468688d70907d915747c4bdc8c1454ef236a85033323abb685f5ab69c6287b062ae0f49bb",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.951178"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 71",
+            "created_at": 1684195429,
+            "id": "063aeb2aa4f416cbc37868a15d91a4753a77c9790683dfaf2a4a04475ecb4065",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "5c13152bd2eb0b3a4d03fdde54db76c266d4d059e75f555f69b030081d927590f9ed7a94d25ad5dd196b18b13bf7e31ddf7f2242a7c77f73cecb64253f0f66b8",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:16:53.950181"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 72",
             "created_at": 1684195845,
@@ -1861,54 +1861,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:10:45.590293"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.948441"
         }
     ],
     [
         "EVENT",
-        "f62ff894f37d11edb773804a14673ee3",
-        {
-            "content": "#stackjoin test 72",
-            "created_at": 1684195845,
-            "id": "1e561d5378b8a1edaf05743f2cab501be0ead3be6583d01c42f01a165670d750",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "cf6a5ce5701ef5471c6f1689923bfcb2e1613768e3bce319939745bc5d20abe5d76552646331f8295f87082a287cf7ca8d769efdaf32bd3f1f2f3544d69c3ba9",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:10:45.592991"
-        }
-    ],
-    [
-        "EVENT",
-        "1caeb03cf37e11edb773804a14673ee3",
-        {
-            "content": "#stackjoin test 72",
-            "created_at": 1684195845,
-            "id": "1e561d5378b8a1edaf05743f2cab501be0ead3be6583d01c42f01a165670d750",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "cf6a5ce5701ef5471c6f1689923bfcb2e1613768e3bce319939745bc5d20abe5d76552646331f8295f87082a287cf7ca8d769efdaf32bd3f1f2f3544d69c3ba9",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:10:50.456036"
-        }
-    ],
-    [
-        "EVENT",
-        "4323e160f37e11edb773804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 73",
             "created_at": 1684195918,
@@ -1924,75 +1882,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:11:59.238968"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.947219"
         }
     ],
     [
         "EVENT",
-        "097401acf37e11edb773804a14673ee3",
-        {
-            "content": "#stackjoin test 73",
-            "created_at": 1684195918,
-            "id": "394d1626bb287636d8e60772b4401d5f4b5d13a1d94e13a4490ee2189fd5bab3",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "89b6d7a582fbc2ffaeda71c1074ec8e8f82ef2bedb6b76ba9e5fcea0fe94922a56111ef0546ebe44b5804c1ec2283c1b583845c843c91d98f2471d43170426fd",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:11:59.247043"
-        }
-    ],
-    [
-        "EVENT",
-        "f62ff894f37d11edb773804a14673ee3",
-        {
-            "content": "#stackjoin test 73",
-            "created_at": 1684195918,
-            "id": "394d1626bb287636d8e60772b4401d5f4b5d13a1d94e13a4490ee2189fd5bab3",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "89b6d7a582fbc2ffaeda71c1074ec8e8f82ef2bedb6b76ba9e5fcea0fe94922a56111ef0546ebe44b5804c1ec2283c1b583845c843c91d98f2471d43170426fd",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:11:59.248624"
-        }
-    ],
-    [
-        "EVENT",
-        "565f294cf37e11edb773804a14673ee3",
-        {
-            "content": "#stackjoin test 73",
-            "created_at": 1684195918,
-            "id": "394d1626bb287636d8e60772b4401d5f4b5d13a1d94e13a4490ee2189fd5bab3",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "89b6d7a582fbc2ffaeda71c1074ec8e8f82ef2bedb6b76ba9e5fcea0fe94922a56111ef0546ebe44b5804c1ec2283c1b583845c843c91d98f2471d43170426fd",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:12:27.249963"
-        }
-    ],
-    [
-        "EVENT",
-        "d501528ef37e11edb933804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 74",
             "created_at": 1684196185,
@@ -2008,33 +1903,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:16:26.122700"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.945706"
         }
     ],
     [
         "EVENT",
-        "e845c622f37e11edb933804a14673ee3",
-        {
-            "content": "#stackjoin test 74",
-            "created_at": 1684196185,
-            "id": "86082a166bbbc72f566a2a4daa7bc99f165407eb4fe19e3c8ee06943c8e3652a",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "d65bdaa3a030ee7d19779ce43b74dd3fa7574f669f35fc4132dc2b6a12d72b54c1017ede79f2568fc20c0f5168eb26d3c6d12700665acf2bc0489c5c2b4bb204",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:16:32.019021"
-        }
-    ],
-    [
-        "EVENT",
-        "1fbb6ab2f37f11ed99ed804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 75",
             "created_at": 1684196292,
@@ -2050,54 +1924,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:18:12.963693"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.944658"
         }
     ],
     [
         "EVENT",
-        "0c7714e2f37f11ed99ed804a14673ee3",
-        {
-            "content": "#stackjoin test 75",
-            "created_at": 1684196292,
-            "id": "afe598d55243ba2f058567dc65d5485f39cff06dd36d9ca78a7ca3c0983dc178",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "249eb5544b137df673abe00298f957820d69b2066058c435126faa660c7b4c66d55b7cf3b3201a47fd8f29d601f48fc1985df53b7f435145d6f829e2816f5613",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:18:12.966072"
-        }
-    ],
-    [
-        "EVENT",
-        "32f6402af37f11ed99ed804a14673ee3",
-        {
-            "content": "#stackjoin test 75",
-            "created_at": 1684196292,
-            "id": "afe598d55243ba2f058567dc65d5485f39cff06dd36d9ca78a7ca3c0983dc178",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "249eb5544b137df673abe00298f957820d69b2066058c435126faa660c7b4c66d55b7cf3b3201a47fd8f29d601f48fc1985df53b7f435145d6f829e2816f5613",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:18:37.340639"
-        }
-    ],
-    [
-        "EVENT",
-        "0c7714e2f37f11ed99ed804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 76",
             "created_at": 1684196330,
@@ -2113,75 +1945,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:18:50.952502"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.943405"
         }
     ],
     [
         "EVENT",
-        "1fbb6ab2f37f11ed99ed804a14673ee3",
-        {
-            "content": "#stackjoin test 76",
-            "created_at": 1684196330,
-            "id": "e84edd20436b51b6af4748aefd5f0d425ad1da6cbbc2e3a9e0cd078d3044a236",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "beddf54a627b9f35918e9cf4b9c3040018e0a7a71c77b393c15bbbc4c07380a5438c40803918a3f98745d3f77f11a17b379aa21360b90475035a9e52c3b65dd1",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:18:50.955780"
-        }
-    ],
-    [
-        "EVENT",
-        "32f6402af37f11ed99ed804a14673ee3",
-        {
-            "content": "#stackjoin test 76",
-            "created_at": 1684196330,
-            "id": "e84edd20436b51b6af4748aefd5f0d425ad1da6cbbc2e3a9e0cd078d3044a236",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "beddf54a627b9f35918e9cf4b9c3040018e0a7a71c77b393c15bbbc4c07380a5438c40803918a3f98745d3f77f11a17b379aa21360b90475035a9e52c3b65dd1",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:18:50.968604"
-        }
-    ],
-    [
-        "EVENT",
-        "847b96c0f37f11edacf6804a14673ee3",
-        {
-            "content": "#stackjoin test 76",
-            "created_at": 1684196330,
-            "id": "e84edd20436b51b6af4748aefd5f0d425ad1da6cbbc2e3a9e0cd078d3044a236",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "beddf54a627b9f35918e9cf4b9c3040018e0a7a71c77b393c15bbbc4c07380a5438c40803918a3f98745d3f77f11a17b379aa21360b90475035a9e52c3b65dd1",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:20:54.095028"
-        }
-    ],
-    [
-        "EVENT",
-        "847b96c0f37f11edacf6804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 77",
             "created_at": 1684196471,
@@ -2197,33 +1966,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:21:11.543388"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.942660"
         }
     ],
     [
         "EVENT",
-        "97ce2bdef37f11edacf6804a14673ee3",
-        {
-            "content": "#stackjoin test 77",
-            "created_at": 1684196471,
-            "id": "7797d1b970fdee565134197c7992be5360ab3d46d4b9e28fc71b67f043f3af1c",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "e8edc60d9dfe639fc3da9bd2d81f13e628af42ecd569f9a6b87ec4b624349fb302dcb3082af6d8110b6ff9690db4c15eda91ed759b5c9b6051191ea380090a77",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:21:26.515529"
-        }
-    ],
-    [
-        "EVENT",
-        "be442bc4f37f11edacf6804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 78",
             "created_at": 1684196601,
@@ -2239,54 +1987,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:23:21.838097"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.941666"
         }
     ],
     [
         "EVENT",
-        "ab091074f37f11edacf6804a14673ee3",
-        {
-            "content": "#stackjoin test 78",
-            "created_at": 1684196601,
-            "id": "971f048abd747c5bfeb3ec2836bb7683d001a0571d0d76a23933ec4a8cab6b5e",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "bd8a80c51c2cbe20e4662f4bc05c74afb48611c3ef97e8dff08f81d9cfaf5d0acdcfadd68dc11a8466970cb525868192a9aaacb82003e26cea6aeb7d263575f7",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:23:21.849024"
-        }
-    ],
-    [
-        "EVENT",
-        "e4b8af28f37f11edacf6804a14673ee3",
-        {
-            "content": "#stackjoin test 78",
-            "created_at": 1684196601,
-            "id": "971f048abd747c5bfeb3ec2836bb7683d001a0571d0d76a23933ec4a8cab6b5e",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "bd8a80c51c2cbe20e4662f4bc05c74afb48611c3ef97e8dff08f81d9cfaf5d0acdcfadd68dc11a8466970cb525868192a9aaacb82003e26cea6aeb7d263575f7",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:23:35.555067"
-        }
-    ],
-    [
-        "EVENT",
-        "2424ffe0f38011ed90e4804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 79",
             "created_at": 1684196736,
@@ -2302,33 +2008,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:25:36.417610"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.940383"
         }
     ],
     [
         "EVENT",
-        "376eb258f38011ed90e4804a14673ee3",
-        {
-            "content": "#stackjoin test 79",
-            "created_at": 1684196736,
-            "id": "5fb3e3b5fd6ebebb804d3079ca94e38b663bb611e464c111623486f814e722e1",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "6e419fc8082d583b9915198acb34db8b61ed306a2eaa8e4d9faec353529733f85781b0e6be3dca6ddf5465001fc8d3dc85b5d718cffdd736a4d4803ffd3030c6",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-15T20:25:54.326768"
-        }
-    ],
-    [
-        "EVENT",
-        "376eb258f38011ed90e4804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
             "content": "#stackjoin test 80",
             "created_at": 1684196763,
@@ -2344,19 +2029,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:26:03.875905"
+            "datetime_event_was_queried": "2023-05-15T21:16:53.938457"
         }
     ],
     [
         "EVENT",
-        "4ab8d0e6f38011ed90e4804a14673ee3",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
         {
-            "content": "#stackjoin test 80",
-            "created_at": 1684196763,
-            "id": "7e543d4c3fcf8d74472eb12ae32eca1be9c00e37a60b69034057cec0f1ea23ce",
+            "content": "#stackjoin test 81",
+            "created_at": 1684199869,
+            "id": "64c1dad486d7bdfe135469ec26bd1f729d9c6db518c87f7cb1b5dfbb78a5e26d",
             "kind": 1,
             "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "18c4a430c40d11f131f4be2e3bb560b8d246db947bc1e6f6249ca828bafb5d536836c79626caf3739ee7c3ef1352b29f524a8be3922d08f53479d3b89e335ba3",
+            "sig": "60a41d1aef4efab41de12625081aa7bbe0575b70f3b62e4a64c10a70a31468f5e3e95f9699f36dc43fa3f1aa219f0cf2d5e54581a34575f78916dd9038b99061",
             "tags": [
                 [
                     "t",
@@ -2365,7 +2050,28 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-15T20:26:26.686642"
+            "datetime_event_was_queried": "2023-05-15T21:17:49.596073"
+        }
+    ],
+    [
+        "EVENT",
+        "5709ee8cf38711ed8d0136a166cdd3a9",
+        {
+            "content": "#stackjoin test 82",
+            "created_at": 1684199972,
+            "id": "2f27951b8d359d9caa9e8845071599d50f0cd54abcecd97132bc3c75ad96ded6",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "ae70f4c5979540814acfb4c5992f95278b5b87f5c8cf7fb309f117981d1a44c56397e284d9bcb714da9530e8ae1c8f2d91d9b11f657f56d134be93631a5e3bb1",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-15T21:19:32.310088"
         }
     ]
 ]
