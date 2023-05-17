@@ -157,9 +157,7 @@ if __name__ == "__main__":
   check_json_for_new_notes()
 
   scheduler = BackgroundScheduler()
-  # scheduler = BlockingScheduler()
-  # scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
-  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=65)
+  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
   print('\nstarting scheduler')
   scheduler.start()
 
@@ -170,8 +168,8 @@ if __name__ == "__main__":
           events = json.load(f)
           last_queried_event_datetime = int(datetime.datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
         # print(f"last queried event datetime {last_queried_event_datetime}")
-        time.sleep(30)
-        print('pausing relay manager')
+        time.sleep(600)
+        print('closing connections to relays')
         close_connections(relay_manager)
         time.sleep(5)
         print('restarting connection on relay manager')
