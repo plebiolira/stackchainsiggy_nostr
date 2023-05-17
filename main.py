@@ -1,6 +1,3 @@
-import sys
-print(f"sys version is {sys.version}, or {sys.version_info}")
-
 import json
 import ssl
 import time
@@ -11,7 +8,6 @@ from python_nostr_package.nostr import PublicKey, PrivateKey
 # from nostr.relay_manager import RelayManager
 # from nostr.key import PublicKey
 import datetime
-from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.schedulers.background import BackgroundScheduler
 from post_note import *
 from set_query_filters import *
@@ -71,16 +67,16 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
       for event in events:
         if event[2]['id'] == event_msg.event.id:
           print('found id on json, switching append event to false')
-          print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
           append_event = False
       if append_event == True:
-        print(f"event json is {event}, event id on event is {event_msg.event.json}")
-        print('didnt find event on json, appending')
-        datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
-        event_msg.event.json.append(datetime_event_was_queried)
-        events.append(event_msg.event.json)
-        f.seek(0)
-        f.write(json.dumps(events, indent=4))
+        append_event(event_msg.event.json)
+        # print(f"event json is {event}, event id on event is {event_msg.event.json}")
+        # print('didnt find event on json, appending')
+        # datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
+        # event_msg.event.json.append(datetime_event_was_queried)
+        # events.append(event_msg.event.json)
+        # f.seek(0)
+        # f.write(json.dumps(events, indent=4))
 
         # private_key = PrivateKey()
         # if to_post_note == True:
@@ -154,18 +150,16 @@ if __name__ == "__main__":
 
   relay_manager = main(public_key, since=since, empty_json_since=empty_json_since, to_post_note=False)
 
-  # scheduler = BlockingScheduler()
-  # print('\nstarting scheduler')
-  # scheduler.add_job(main, 'interval', seconds=10, args=[public_key])
-  # scheduler.start()
-
   with open('last_time_checked.json', 'w') as f:
     pass
+
+  #running check_json once
+  check_json_for_new_notes()
 
   scheduler = BackgroundScheduler()
   # scheduler = BlockingScheduler()
   # scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
-  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
+  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=65)
   print('\nstarting scheduler')
   scheduler.start()
 
@@ -176,14 +170,14 @@ if __name__ == "__main__":
           events = json.load(f)
           last_queried_event_datetime = int(datetime.datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
         # print(f"last queried event datetime {last_queried_event_datetime}")
-        time.sleep(600)
+        time.sleep(30)
         print('pausing relay manager')
         close_connections(relay_manager)
         time.sleep(5)
-        print('restarting connection with relay manager')
+        print('restarting connection on relay manager')
         relay_manager = main(public_key, since=last_queried_event_datetime)
         # time.sleep(2)
-        print('resume')
+        print('resuming')
         # scheduler.resume()
   except (KeyboardInterrupt, SystemExit):
       # Not strictly necessary if daemonic mode is enabled but should be done if possible

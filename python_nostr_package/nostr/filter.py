@@ -2,10 +2,6 @@ from collections import UserList
 from typing import List
 
 from .event import Event, EventKind
-import os
-
-print(f"The path of the script that's currently running is {os.path.realpath(__file__)}")
-
 
 class Filter:
     """

@@ -3,10 +3,6 @@ import json
 from enum import IntEnum
 from secp256k1 import PrivateKey, PublicKey
 from hashlib import sha256
-import os
-
-print(f"The path of the script that's currently running is {os.path.realpath(__file__)}")
-
 from nostr.message_type import ClientMessageType
 
 

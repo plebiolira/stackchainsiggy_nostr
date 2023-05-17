@@ -1,5 +1,6 @@
 import json
 import datetime
+import os
 # from python_nostr_package.nostr import PrivateKey, PublicKey
 # from post_note import *
 
@@ -21,6 +22,8 @@ def append_json(event_msg: json):
       # event_msg.event.json.append(datetime_event_was_queried)
       # event_msg = json.load(event_msg)
       # events.append(event_msg.event.json)
-      events.append(event_msg)
-      f.seek(0)
-      f.write(json.dumps(events, indent=4))
+      f.seek(os.path.getsize('events.json')-1)
+      f.write(","+str(event_msg).replace("\'","\"")+"]")
+      # events.append(event_msg)
+      # f.seek(0)
+      # f.write(json.dumps(events, indent=4))
