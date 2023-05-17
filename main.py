@@ -74,7 +74,6 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
           print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
           append_event = False
       if append_event == True:
-        print(f"event id on json is {event[2]['id']}, event id on event is {event_msg.event.id}")
         print(f"event json is {event}, event id on event is {event_msg.event.json}")
         print('didnt find event on json, appending')
         datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
@@ -102,9 +101,8 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
 def close_connections(relay_manager):
   relay_manager.close_connections()
 
-
-@timer
 def check_json_for_new_notes():
+  print("running check_json_for_new_notes")
   if os.stat('last_time_checked.json').st_size == 0 or os.stat('last_time_checked.json').st_size == 2:
     with open('last_time_checked.json','w') as f:
       f.write("[]")
@@ -123,7 +121,6 @@ def check_json_for_new_notes():
       if datetime.datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > last_time_checked:
         print("new event found on json")
         post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']]])
-        # post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']],["p",event[2]['pubkey']]])
   
   with open('last_time_checked.json', 'r+') as f:
     times_checked = json.load(f)
