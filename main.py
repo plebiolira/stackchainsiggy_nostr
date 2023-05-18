@@ -13,25 +13,22 @@ from post_note import *
 from set_query_filters import *
 import os
 import time
+from append_json import *
 
 def timer(func):
     def wrapper():
         before = time.time()
         func()
-        print("check_json function took: ", time.time() - before, "seconds")
-    
+        print("check_json_for_new_notes_and_reply function took: ", time.time() - before, "seconds")    
     return wrapper
 
-def main(public_key, empty_json_since=0, since=0, to_post_note=True):
-  #adding the row below temporarily
-  # since = int(datetime.datetime.fromisoformat("2023-01-01").timestamp())
-
+def main(public_key, empty_json_since=0, since=0):
   request, filters, subscription_id = set_query_filters(public_key, since)
 
   print(request, filters)
   relay_manager = RelayManager()
-  # relay_manager.add_relay("wss://nostr-pub.wellorder.net")
   relay_manager.add_relay("wss://relay.damus.io")
+  # relay_manager.add_relay("wss://nostr-pub.wellorder.net")
   # relay_manager.add_relay("wss://relay.snort.social")
   # relay_manager.add_relay("wss://nostr1.current.fyi")
   # relay_manager.add_relay("wss://relay.current.fyi")
@@ -55,33 +52,11 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
     # print(f"event.kind: {event_msg.event.kind}")
     # print(event_msg.event.public_key)
     # print(event_msg.event.signature)
-    print(f"event.id: {event_msg.event.id}")
+    # print(f"event.id: {event_msg.event.id}")
     # print(f"event.json: {event_msg.event.json}")
     # print(f"event.json[2]['id']: {event_msg.event.json[2]['id']}")
 
-    # keeping connection to relay open to see if it sustains
-    # connection drops after around one hour - checking again - it drops eventually
-    with open('events.json','r+') as f:
-      append_event = True
-      events = json.load(f)
-      for event in events:
-        if event[2]['id'] == event_msg.event.id:
-          print('found id on json, switching append event to false')
-          append_event = False
-      if append_event == True:
-        append_event(event_msg.event.json)
-        # print(f"event json is {event}, event id on event is {event_msg.event.json}")
-        # print('didnt find event on json, appending')
-        # datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
-        # event_msg.event.json.append(datetime_event_was_queried)
-        # events.append(event_msg.event.json)
-        # f.seek(0)
-        # f.write(json.dumps(events, indent=4))
-
-        # private_key = PrivateKey()
-        # if to_post_note == True:
-          # post_note(private_key.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event_msg.event.id],["p",public_key]])
-          # pass
+    append_json(event_msg = event_msg.event.json)
     
     if since == empty_json_since:
       with open('events.json', 'r+') as f:
@@ -97,15 +72,9 @@ def main(public_key, empty_json_since=0, since=0, to_post_note=True):
 def close_connections(relay_manager):
   relay_manager.close_connections()
 
-def check_json_for_new_notes():
+@timer
+def check_json_for_new_notes_and_reply():
   print("running check_json_for_new_notes")
-  if os.stat('last_time_checked.json').st_size == 0 or os.stat('last_time_checked.json').st_size == 2:
-    with open('last_time_checked.json','w') as f:
-      f.write("[]")
-      times_checked = []
-      times_checked.append({"checked_time": datetime.datetime.now().timestamp(), "number_of_checks":0})
-      f.seek(0)
-      f.write(json.dumps(times_checked, indent=4))
 
   with open('last_time_checked.json', 'r') as f:
     times_checked = json.load(f)
@@ -128,7 +97,6 @@ def check_json_for_new_notes():
     f.truncate(0)
     f.write(json.dumps(times_checked, indent=4))
 
-
 if __name__ == "__main__":
   if not os.path.exists('events.json'):
     with open('events.json','w') as f:
@@ -139,7 +107,6 @@ if __name__ == "__main__":
   with open('events.json','r') as f:
     events = json.load(f)
     if events == []:
-      # since = int(datetime.datetime.fromisoformat(input("Won't reply to events queried on the initial run. What date would you like to start querying at? (yyyy-mm-dd) ")).timestamp())
       empty_json_since = int(datetime.datetime.fromisoformat("2023-01-01").timestamp())
       since = empty_json_since
     else:
@@ -147,17 +114,23 @@ if __name__ == "__main__":
       empty_json_since = 0
 
   public_key = PublicKey.from_npub("npub1x2v0vnn059dv3ep9h45lwfgdnynl9nseqsg7safkrrqdc6va3c2qs0kkjg").hex()
-
-  relay_manager = main(public_key, since=since, empty_json_since=empty_json_since, to_post_note=False)
-
+  relay_manager = main(public_key, since=since, empty_json_since=empty_json_since)
+  
   with open('last_time_checked.json', 'w') as f:
     pass
+  with open('last_time_checked.json','w') as f:
+    f.write("[]")
+    times_checked = []
+    times_checked.append({"checked_time": datetime.datetime.now().timestamp(), "number_of_checks":0})
+    f.seek(0)
+    f.write(json.dumps(times_checked, indent=4))
 
   #running check_json once
-  check_json_for_new_notes()
+  time.sleep(1)
+  check_json_for_new_notes_and_reply()
 
   scheduler = BackgroundScheduler()
-  scheduler.add_job(check_json_for_new_notes, 'interval', seconds=5)
+  scheduler.add_job(check_json_for_new_notes_and_reply, 'interval', seconds=5)
   print('\nstarting scheduler')
   scheduler.start()
 
@@ -174,9 +147,7 @@ if __name__ == "__main__":
         time.sleep(5)
         print('restarting connection on relay manager')
         relay_manager = main(public_key, since=last_queried_event_datetime)
-        # time.sleep(2)
         print('resuming')
-        # scheduler.resume()
   except (KeyboardInterrupt, SystemExit):
       # Not strictly necessary if daemonic mode is enabled but should be done if possible
       scheduler.shutdown()

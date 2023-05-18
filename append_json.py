@@ -1,12 +1,20 @@
 import json
 import datetime
 import os
+import time
 # from python_nostr_package.nostr import PrivateKey, PublicKey
 # from post_note import *
 
+def timer(func):
+    def wrapper(*args, **kwargs):
+        before = time.time()
+        func(*args, **kwargs)
+        print("append_json function took: ", time.time() - before, "seconds")    
+    return wrapper
+
+@timer
 def append_json(event_msg: json):
   print('running append_json')
-  # print(event_msg)
   with open('events.json','r+') as f:
     append_event = True
     events = json.load(f)
@@ -18,12 +26,12 @@ def append_json(event_msg: json):
       print('didnt find event on json, appending')
       datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
       event_msg.append(datetime_event_was_queried)
-      # print(f"event msg event json: {event_msg.event.json}")
       # event_msg.event.json.append(datetime_event_was_queried)
       # event_msg = json.load(event_msg)
-      # events.append(event_msg.event.json)
-      f.seek(os.path.getsize('events.json')-1)
-      f.write(","+str(event_msg).replace("\'","\"")+"]")
-      # events.append(event_msg)
-      # f.seek(0)
-      # f.write(json.dumps(events, indent=4))
+      if os.path.getsize('events.json') == 2:
+        events.append(event_msg)
+        f.seek(0)
+        f.write(json.dumps(events, indent=4))
+      else:
+        f.seek(os.path.getsize('events.json')-1)
+        f.write(","+str(event_msg).replace("\'","\"")+"]")
