@@ -32,6 +32,12 @@ class PublicKey:
         hrp, data, spec = bech32.bech32_decode(npub)
         raw_public_key = bech32.convertbits(data, 5, 8)[:-1]
         return cls(bytes(raw_public_key))
+    
+    @staticmethod
+    def hex_to_bech32(key_str: str, spec, prefix='npub'):
+        as_int = [int(key_str[i:i+2], 16) for i in range(0, len(key_str), 2)]
+        data = bech32.convertbits(as_int, 8, 5)
+        return bech32.bech32_encode(prefix, data, spec)
 
 
 class PrivateKey:

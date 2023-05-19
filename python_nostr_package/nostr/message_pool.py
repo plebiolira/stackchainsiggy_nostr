@@ -4,6 +4,7 @@ from threading import Lock
 from .message_type import RelayMessageType
 from .event import Event
 from append_json import *
+from python_nostr_package.nostr import PublicKey
 
 class EventMessage:
     def __init__(self, event: Event, subscription_id: str, url: str) -> None:
@@ -54,6 +55,7 @@ class MessagePool:
         message_json = json.loads(message)
         message_type = message_json[0]
         print(f"\nMessage json on message pool: {message_json}")
+        print(f"\n>> Event on snort.social: https://snort.social/e/{PublicKey.hex_to_bech32(message_json[2]['id'], 'Encoding.BECH32')}")
         if message_json[0] == "EVENT":
             append_json(message_json)
 
