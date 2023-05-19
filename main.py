@@ -85,7 +85,7 @@ def check_json_for_new_notes_and_reply():
     for event in events:
       if datetime.datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > last_time_checked:
         print("new event found on json")
-        # post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']]])
+        post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']]])
   
   with open('last_time_checked.json', 'r+') as f:
     times_checked = json.load(f)
