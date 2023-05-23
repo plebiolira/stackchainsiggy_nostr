@@ -95,7 +95,7 @@ def check_json_for_new_notes_and_reply():
       # for grabbing individual events
       # if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > 0:
         print("new event found on json")
-        post_note(private_key), "content todo", [["e",event[2]['id']]])
+        post_note(private_key, "content todo", [["e",event[2]['id']]])
         print('starting store stackjoin')
         store_stackjoin(event, datetime.fromtimestamp(event[2]['created_at']).isoformat())
   
@@ -124,7 +124,7 @@ if __name__ == "__main__":
       empty_json_since = int(datetime.now().timestamp()-100000)
       since = empty_json_since
     else:
-      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
+      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_bug fiwas_queried']).timestamp())
       empty_json_since = 0
 
   relay_manager = main(public_key, since=since, empty_json_since=empty_json_since)
