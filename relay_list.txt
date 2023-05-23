@@ -4,3 +4,4 @@ wss://nostr.wine
 wss://relay.snort.social
 wss://free.nostr.lc
 wss://nostr-relay.derekross.me
+wss://relay.nostr.br
