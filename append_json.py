@@ -14,7 +14,7 @@ def timer(func):
 
 @timer
 def append_json(event_msg: json):
-  time.sleep(0.2)
+  time.sleep(0.3)
   print('\nrunning append_json')
   with open('events.json','r+') as f:
     append_event = True

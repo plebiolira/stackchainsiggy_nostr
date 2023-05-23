@@ -20,7 +20,7 @@ def post_note(private_key, content, tags):
     time.sleep(1.25) # allow the connections to open
 
     # event = Event(private_key.public_key.hex(), "Hey there " + str(random.randint(3, 9000)), tags=tags)
-    event = Event(private_key.public_key.hex(), "🤖 Stackjoin Recorded to the Mempool ☑️! (Still in alpha bug smashing mode). 🤖 ["+str(random.randint(3, 90000))+"]", tags=tags)
+    event = Event(private_key.public_key.hex(), "🤖 Stackjoin Recorded to the Mempool ☑️!\n(Siggy still in alpha, bug smashing, mode). 🤖 ["+str(random.randint(3, 90000))+"]", tags=tags)
     # event = Event(private_key.public_key.hex(), "Hey there " + str(random.randint(3, 9000)))
     private_key.sign_event(event)
 

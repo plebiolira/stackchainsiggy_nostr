@@ -1,7 +1,7 @@
 [
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test with image capturing to db\nhttps://void.cat/d/4AR4sSJBJBCC7hnM7idZFz.webp",
             "created_at": 1684767973,
@@ -17,12 +17,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:32.055438"
+            "datetime_event_was_queried": "2023-05-23T13:34:46.026497"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test with image capturing to db third time is the charm\nhttps://void.cat/d/x8f7qo3y62vibX2gtdHTy.webp",
             "created_at": 1684768165,
@@ -38,19 +38,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.642515"
+            "datetime_event_was_queried": "2023-05-23T13:34:45.416393"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
-            "content": "#stackjoin 5th time was always going to be the charm\nhttps://void.cat/d/KGQZpqnMfFw2iD18LxxUgZ.webp",
-            "created_at": 1684768522,
-            "id": "ac49e037699816d48cf6868f19b68492f085f6f5552d2c07f326190d7d2ce36b",
+            "content": "#stackjoin test [65995]",
+            "created_at": 1684862749,
+            "id": "931ebb0b73446279642e288b9e48fef0bd5f093643c96ba621b1952a26c542bb",
             "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "3fd925bdc5d0fa0de6b14089fb73b9e625bc153dfa1817aed13d9c74da8566588160bba011c083d23ec9607edecffe00a078cbca807e07f81e20f8f58e74eeb5",
+            "pubkey": "16eb2295b593eb4b29cb54fed5b5f38a04c3ec9209b022a84a1c94ea0a52d444",
+            "sig": "707f4196a597952740aaf03e7ab8f0f06b99dd8c46e14f7d6131ea1998f01142c553ac75246da8f5903da101544d00c31a880684fe57a9af439f71960f9dc87c",
             "tags": [
                 [
                     "t",
@@ -59,12 +59,15 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.219761"
+            "datetime_event_was_queried": "2023-05-23T13:34:42.387405"
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:45.101709"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin $1",
             "created_at": 1684777000,
@@ -80,12 +83,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.213764"
+            "datetime_event_was_queried": "2023-05-23T13:34:44.828918"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test [85326]",
             "created_at": 1684807973,
@@ -101,19 +104,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.404318"
+            "datetime_event_was_queried": "2023-05-23T13:34:44.821683"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
-            "content": "#stackjoin to damus relay",
-            "created_at": 1684776593,
-            "id": "cf1a854ee41dcc0b4366e1f2dfeb871e5ddf272f73e176941d5bdf7cb0a94666",
+            "content": "#stackjoin 5th time was always going to be the charm\nhttps://void.cat/d/KGQZpqnMfFw2iD18LxxUgZ.webp",
+            "created_at": 1684768522,
+            "id": "ac49e037699816d48cf6868f19b68492f085f6f5552d2c07f326190d7d2ce36b",
             "kind": 1,
             "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "4fd2de6ac86253fa3581b0ddf500fef07c52c0065e28ef6f4774257c97f68e99699e6340df996939970a3a0432888d752f0bbaee991fd6364c1cbabbd61ab986",
+            "sig": "3fd925bdc5d0fa0de6b14089fb73b9e625bc153dfa1817aed13d9c74da8566588160bba011c083d23ec9607edecffe00a078cbca807e07f81e20f8f58e74eeb5",
             "tags": [
                 [
                     "t",
@@ -122,12 +125,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.393447"
+            "datetime_event_was_queried": "2023-05-23T13:34:44.810299"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin on nostr.bg 3rd time is da charm\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image7021137.jpg",
             "created_at": 1684808651,
@@ -143,96 +146,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.990364"
+            "datetime_event_was_queried": "2023-05-23T13:34:44.215783"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin to nos.lol and damus.io",
-            "created_at": 1684777153,
-            "id": "d4f689a8b069da8d0d2d6debd45c5e220333ac2ac2954b75a46dbb5619e8209c",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "1fc85067e514567c60d0edf8799379efc660c094c23dcf0a62ef76b8f23d7520dc0d90d6aedce60ea7ab0393faa16da55b88bcdf8d25a44d475d8c2b89b87c18",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.979184"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin converting to npub\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image3813407.jpg",
-            "created_at": 1684810919,
-            "id": "bb4e5a5112578923b51fadacd4348d2772b7eb3c79c0b80d3572eaa32faf1ec3",
-            "kind": 1,
-            "pubkey": "d7a57bf958f37c88a1288e9e35a8035c0230116a9777dcd07766cc1a9f4d990b",
-            "sig": "39f8b9d429aff843b3bc9a52b351aa855fa1cfb92da449b470755a9c360e5a7b11cb823d703d0054bb7353e88cc7628593b4665a4a943f2373fab44677ffee8f",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.783353"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "posting to nos.lol only #stackjoin\nhttps://void.cat/d/9ZkMjDA8d8HLSSF4FRWJ5.mp4",
-            "created_at": 1684799645,
-            "id": "70def7af46082838c977fd0ad83cf25c8ea494338b4d47516271c25d0e108785",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "9b0eb653fb0ac20fe4225c0dadbf68cb9b15b4ff6e73f9c0191e59b2c21bcd79aacad7eed79789db55fd96108d0b06890fc01d13387affcaddcb41f9b1132c89",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.773900"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "Testing out Nostr Siggy with a $21 #stackjoin\n\nhttps://nostr.build/p/nb9159.mov",
-            "created_at": 1684777176,
-            "id": "4fb0be485c11930c1786514423a162e510f1685ce7cd5a38e4d2b5c8529d3ddc",
-            "kind": 1,
-            "pubkey": "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13",
-            "sig": "a116702221cc65ec0a1a86fab852651523baf5f6f312f5e0214d27333b63042892724d03188c6ccad9227accbba8e52095521c0e6ff5ffa350084e501def5cb1",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.771910"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test [86836]",
             "created_at": 1684811630,
@@ -248,40 +167,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.579720"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.606409"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
-            "content": "#stackjoin testto multiple relays\n\nhttps://void.cat/d/QXi9MB8yqCqYyKVcHZ4r3k.webp",
-            "created_at": 1684800459,
-            "id": "c97f5707b335fe34d70b52f95dd8a5adb94b98c67c2d2af90c653c48a8ed2558",
-            "kind": 1,
-            "pubkey": "0f2e919034088ed407a2fe0552416ae376f57dd125390c17769ec6bfd61c6802",
-            "sig": "4ee2bde22cfd180751f68f9fcf17f52654406b96a1317ef6f31b4a21e30f9b79fda35e95ae9f1717f7110c04d0248cc0551b508d0aefce04dafbed1f93568ab5",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.571566"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin to nos.lol and damus.io 2",
-            "created_at": 1684777264,
-            "id": "505f6a088cab2e9dc2b37400c0de8d4e087ca2ee7c896b9e56fd6470624fa795",
+            "content": "#stackjoin to damus relay",
+            "created_at": 1684776593,
+            "id": "cf1a854ee41dcc0b4366e1f2dfeb871e5ddf272f73e176941d5bdf7cb0a94666",
             "kind": 1,
             "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "5bec4e5b58398c2c44bf81ee5149a8522481f4797393fc56c33872f6efdab6e69045b3b0f60498f1d86c5479bc8d837ad550f4f9e62bf9f78eef086fb6ebaec1",
+            "sig": "4fd2de6ac86253fa3581b0ddf500fef07c52c0065e28ef6f4774257c97f68e99699e6340df996939970a3a0432888d752f0bbaee991fd6364c1cbabbd61ab986",
             "tags": [
                 [
                     "t",
@@ -290,75 +188,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.565526"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.590332"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin test [7584]",
-            "created_at": 1684811790,
-            "id": "1dbd54907e3bde6e1f12d2bcb4f51e56e55f5f872a451328d1295feabba7967a",
-            "kind": 1,
-            "pubkey": "dea3271ebe12b677a53a6ae63a20ae033c262684c275ba19d5657ec91600a37a",
-            "sig": "9976302e8c8ca6db7b66c976b06a6df2c4f578efe505b64101f8a6095896101ee5305652a805ecd1d4dbb6aeb050cb9ee611b2067659de5506265d2d060d1a0b",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.374349"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "testing #stackjoin to multiple relays\nhttps://void.cat/d/Lgbn1t625eEkCdVysTYw1i.webp",
-            "created_at": 1684800599,
-            "id": "5a06b5c0f6958851273d0a635fd1265ba4095cd75982842d88657012d822228a",
-            "kind": 1,
-            "pubkey": "0f2e919034088ed407a2fe0552416ae376f57dd125390c17769ec6bfd61c6802",
-            "sig": "9786b351e8882553bd15604d4160d5f592a8e4a389f364f2931f9cb460b03db85de1be8a4377a282669a1bd1a304cc03517815c3b777d509eee37b32a4dc73ae",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.365063"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin to nos.lol and damus.io 3",
-            "created_at": 1684777446,
-            "id": "81f2d9577687f1d4a964c0735c6a2c0d8e15843d77f366d7f242eb8a6afa5b5b",
-            "kind": 1,
-            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
-            "sig": "2e5e3eead5715e90991e2536b4bdba3c7e36dbf3bba4bc896888851e07de77f01910e6e4c98c6f0649ea64ed7af38f523987b24b5d8958e252a1e305c2bc15fa",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.359372"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test [13342]",
             "created_at": 1684812063,
@@ -374,12 +209,159 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.168203"
+            "datetime_event_was_queried": "2023-05-23T13:34:42.995907"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin to nos.lol and damus.io",
+            "created_at": 1684777153,
+            "id": "d4f689a8b069da8d0d2d6debd45c5e220333ac2ac2954b75a46dbb5619e8209c",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "1fc85067e514567c60d0edf8799379efc660c094c23dcf0a62ef76b8f23d7520dc0d90d6aedce60ea7ab0393faa16da55b88bcdf8d25a44d475d8c2b89b87c18",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.979910"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin testto multiple relays\n\nhttps://void.cat/d/QXi9MB8yqCqYyKVcHZ4r3k.webp",
+            "created_at": 1684800459,
+            "id": "c97f5707b335fe34d70b52f95dd8a5adb94b98c67c2d2af90c653c48a8ed2558",
+            "kind": 1,
+            "pubkey": "0f2e919034088ed407a2fe0552416ae376f57dd125390c17769ec6bfd61c6802",
+            "sig": "4ee2bde22cfd180751f68f9fcf17f52654406b96a1317ef6f31b4a21e30f9b79fda35e95ae9f1717f7110c04d0248cc0551b508d0aefce04dafbed1f93568ab5",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.387373"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin to nos.lol and damus.io 2",
+            "created_at": 1684777264,
+            "id": "505f6a088cab2e9dc2b37400c0de8d4e087ca2ee7c896b9e56fd6470624fa795",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "5bec4e5b58398c2c44bf81ee5149a8522481f4797393fc56c33872f6efdab6e69045b3b0f60498f1d86c5479bc8d837ad550f4f9e62bf9f78eef086fb6ebaec1",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.374419"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "testing #stackjoin to multiple relays\nhttps://void.cat/d/Lgbn1t625eEkCdVysTYw1i.webp",
+            "created_at": 1684800599,
+            "id": "5a06b5c0f6958851273d0a635fd1265ba4095cd75982842d88657012d822228a",
+            "kind": 1,
+            "pubkey": "0f2e919034088ed407a2fe0552416ae376f57dd125390c17769ec6bfd61c6802",
+            "sig": "9786b351e8882553bd15604d4160d5f592a8e4a389f364f2931f9cb460b03db85de1be8a4377a282669a1bd1a304cc03517815c3b777d509eee37b32a4dc73ae",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.081148"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin test [21262]",
+            "created_at": 1684862909,
+            "id": "d27e8d3ce868229c3575d17e6283745b0b8968be434ecb90644c8a118294da67",
+            "kind": 1,
+            "pubkey": "7f3c70e7f8591bc901272c95afefbdd70cc663d37afae01c71e9c143c1f7017d",
+            "sig": "333226b93b4e7dc34080a083c4aa936ce26181d6e2973b6952a618136f1b267eb801f9189e392b32b5c1e83c54fe77c42c98923f4951c8915d6d5212fc87c6dc",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.081019"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin to nos.lol and damus.io 3",
+            "created_at": 1684777446,
+            "id": "81f2d9577687f1d4a964c0735c6a2c0d8e15843d77f366d7f242eb8a6afa5b5b",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "2e5e3eead5715e90991e2536b4bdba3c7e36dbf3bba4bc896888851e07de77f01910e6e4c98c6f0649ea64ed7af38f523987b24b5d8958e252a1e305c2bc15fa",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.068474"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin test [89246]",
+            "created_at": 1684863182,
+            "id": "7cca44b509d5558affb106ec75b45cd455fa248fb19713623b1e7ca4d5efcc53",
+            "kind": 1,
+            "pubkey": "be0e6feb6297118576717178518444c29b55c0d18fb1dc0d2d060c078abc4358",
+            "sig": "990ad338b2c49df02badeeb2fb604dba14945f92c497fde67867e5af13b0f87bc1a37958fba43adcd0cf10a197daa1243c4d9da0ba68f731d9340cdcbb374e9d",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:41.775671"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin to multiple relays and bot running on railway\nhttps://void.cat/d/EtCtgQHMbsNwRgDtr6GJn6.webp",
             "created_at": 1684800881,
@@ -395,12 +377,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.162187"
+            "datetime_event_was_queried": "2023-05-23T13:34:41.775247"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin with image\nhttps://void.cat/d/VaMLLeZxYmBZB1U9ShLxuV.mp4",
             "created_at": 1684799470,
@@ -416,12 +398,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.153010"
+            "datetime_event_was_queried": "2023-05-23T13:34:41.766811"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "Lets see if its working. I had some issues last week. #stackjoin $1\n\n\nhttps://i.imgur.com/mOrHWkF.png",
             "created_at": 1684773342,
@@ -453,12 +435,75 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:29.091539"
+            "datetime_event_was_queried": "2023-05-23T13:34:41.691766"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "Testing out Nostr Siggy with a $21 #stackjoin\n\nhttps://nostr.build/p/nb9159.mov",
+            "created_at": 1684777176,
+            "id": "4fb0be485c11930c1786514423a162e510f1685ce7cd5a38e4d2b5c8529d3ddc",
+            "kind": 1,
+            "pubkey": "173ffe1c2fc7003c21f2af5075ccff1fb671d522f273e02756ab5763aebfdd13",
+            "sig": "a116702221cc65ec0a1a86fab852651523baf5f6f312f5e0214d27333b63042892724d03188c6ccad9227accbba8e52095521c0e6ff5ffa350084e501def5cb1",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.678596"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin test [85609]",
+            "created_at": 1684821447,
+            "id": "65b231cbc40a489b13a935475a1c1877285ea7f65ff5d11704a41540c81dccd9",
+            "kind": 1,
+            "pubkey": "5d31182c51f13a3ef3f903418a92653c192cc723c5c618214ec9fc1e640606f5",
+            "sig": "1a437b4bef27e747da73f1a87151e4c2dc903b22d262c98f9e35455551abe61f68fe07af34bf54761ca076df9c27697262889d7a30bae1f44961b4ed6027587e",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.689250"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "posting to nos.lol only #stackjoin\nhttps://void.cat/d/9ZkMjDA8d8HLSSF4FRWJ5.mp4",
+            "created_at": 1684799645,
+            "id": "70def7af46082838c977fd0ad83cf25c8ea494338b4d47516271c25d0e108785",
+            "kind": 1,
+            "pubkey": "3298f64e6fa15ac8e425bd69f7250d9927f2ce190411e8753618c0dc699d8e14",
+            "sig": "9b0eb653fb0ac20fe4225c0dadbf68cb9b15b4ff6e73f9c0191e59b2c21bcd79aacad7eed79789db55fd96108d0b06890fc01d13387affcaddcb41f9b1132c89",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:42.693045"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin to nos.lol and damus.io",
             "created_at": 1684776705,
@@ -474,19 +519,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.182419"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.284953"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
-            "content": "#stackjoin again on nostr.bg\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image3694703.jpg",
-            "created_at": 1684808278,
-            "id": "2df4f6620fb69e35d207d6a12a3b92588a16ce7b1d1c9238b65d984e4acf9b60",
+            "content": "#stackjoin test [7584]",
+            "created_at": 1684811790,
+            "id": "1dbd54907e3bde6e1f12d2bcb4f51e56e55f5f872a451328d1295feabba7967a",
             "kind": 1,
-            "pubkey": "d7a57bf958f37c88a1288e9e35a8035c0230116a9777dcd07766cc1a9f4d990b",
-            "sig": "cb4e71959ed0e4e2f0491019d2d39324301688c1dd82c80092bb4db972259e7061ecfece9ba233706351a645786eb7ed6e5fcf8b74198d2246107b514870057b",
+            "pubkey": "dea3271ebe12b677a53a6ae63a20ae033c262684c275ba19d5657ec91600a37a",
+            "sig": "9976302e8c8ca6db7b66c976b06a6df2c4f578efe505b64101f8a6095896101ee5305652a805ecd1d4dbb6aeb050cb9ee611b2067659de5506265d2d060d1a0b",
             "tags": [
                 [
                     "t",
@@ -495,12 +540,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.196995"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.300663"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test to two relays\nhttps://void.cat/d/CFucgJ2qkRUhuxVjZvDR9E.webp",
             "created_at": 1684774296,
@@ -516,19 +561,19 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.606471"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.894162"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
-            "content": "#stackjoin test on nostr.br\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image9060145.jpg",
-            "created_at": 1684807815,
-            "id": "e02ca0f007cd6dfaad2c80ed6fe47318b640e32b985fdc1a24612b5bde574278",
+            "content": "#stackjoin converting to npub\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image3813407.jpg",
+            "created_at": 1684810919,
+            "id": "bb4e5a5112578923b51fadacd4348d2772b7eb3c79c0b80d3572eaa32faf1ec3",
             "kind": 1,
             "pubkey": "d7a57bf958f37c88a1288e9e35a8035c0230116a9777dcd07766cc1a9f4d990b",
-            "sig": "d11530899747b5900e8ec6cc230bbe7d08fc9ce8feeecd9cf79a060925607c41705629e19d8e4528e6306642228b121a103cd70ff2aa0a2acfe074da7c7b3c2c",
+            "sig": "39f8b9d429aff843b3bc9a52b351aa855fa1cfb92da449b470755a9c360e5a7b11cb823d703d0054bb7353e88cc7628593b4665a4a943f2373fab44677ffee8f",
             "tags": [
                 [
                     "t",
@@ -537,33 +582,12 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:30.607894"
+            "datetime_event_was_queried": "2023-05-23T13:34:43.910338"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
-        {
-            "content": "#stackjoin $1",
-            "created_at": 1684777144,
-            "id": "ba1befa191b5cd6ad54450cf88cb3868ef64e46b27caff3ca06a11d5c2fb075f",
-            "kind": 1,
-            "pubkey": "fc8cdfb46039e82eed3699d56f0b12857e3824ae258772e63705577b9cacf88d",
-            "sig": "18b6aa3d643ac72bc245a8ca0568128371560e7043ad4580470913985bff9a31d9545e8a388880c2bdd41e147ad8fe14635d4db10e0708b644773252c8f87848",
-            "tags": [
-                [
-                    "t",
-                    "stackjoin"
-                ]
-            ]
-        },
-        {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.009278"
-        }
-    ],
-    [
-        "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test to multiple relays with image\nhttps://void.cat/d/KvUKFG8CZ2u4wBxpfxD56u.webp",
             "created_at": 1684772818,
@@ -579,12 +603,54 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.015119"
+            "datetime_event_was_queried": "2023-05-23T13:34:44.504630"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin again on nostr.bg\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image3694703.jpg",
+            "created_at": 1684808278,
+            "id": "2df4f6620fb69e35d207d6a12a3b92588a16ce7b1d1c9238b65d984e4acf9b60",
+            "kind": 1,
+            "pubkey": "d7a57bf958f37c88a1288e9e35a8035c0230116a9777dcd07766cc1a9f4d990b",
+            "sig": "cb4e71959ed0e4e2f0491019d2d39324301688c1dd82c80092bb4db972259e7061ecfece9ba233706351a645786eb7ed6e5fcf8b74198d2246107b514870057b",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:44.516821"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin $1",
+            "created_at": 1684777144,
+            "id": "ba1befa191b5cd6ad54450cf88cb3868ef64e46b27caff3ca06a11d5c2fb075f",
+            "kind": 1,
+            "pubkey": "fc8cdfb46039e82eed3699d56f0b12857e3824ae258772e63705577b9cacf88d",
+            "sig": "18b6aa3d643ac72bc245a8ca0568128371560e7043ad4580470913985bff9a31d9545e8a388880c2bdd41e147ad8fe14635d4db10e0708b644773252c8f87848",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:44.523548"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin third time wasnt the charm\nhttps://void.cat/d/72NYzmrPuLti6DTNzx4h67.webp",
             "created_at": 1684768299,
@@ -600,12 +666,33 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.421183"
+            "datetime_event_was_queried": "2023-05-23T13:34:45.115268"
         }
     ],
     [
         "EVENT",
-        "8ead91caf92e11eda9fb36a166cdd3a9",
+        "18902ed2f99011ed935d804a14673ee3",
+        {
+            "content": "#stackjoin test on nostr.br\nhttps://i.current.fyi/d7a57bf958f37c88/uploads/image9060145.jpg",
+            "created_at": 1684807815,
+            "id": "e02ca0f007cd6dfaad2c80ed6fe47318b640e32b985fdc1a24612b5bde574278",
+            "kind": 1,
+            "pubkey": "d7a57bf958f37c88a1288e9e35a8035c0230116a9777dcd07766cc1a9f4d990b",
+            "sig": "d11530899747b5900e8ec6cc230bbe7d08fc9ce8feeecd9cf79a060925607c41705629e19d8e4528e6306642228b121a103cd70ff2aa0a2acfe074da7c7b3c2c",
+            "tags": [
+                [
+                    "t",
+                    "stackjoin"
+                ]
+            ]
+        },
+        {
+            "datetime_event_was_queried": "2023-05-23T13:34:45.123596"
+        }
+    ],
+    [
+        "EVENT",
+        "18902ed2f99011ed935d804a14673ee3",
         {
             "content": "#stackjoin test with image capturing to db, round 2\nhttps://void.cat/d/768TvM9iTfnKan345WUwzK.webp",
             "created_at": 1684768022,
@@ -621,7 +708,7 @@
             ]
         },
         {
-            "datetime_event_was_queried": "2023-05-23T01:56:31.848863"
+            "datetime_event_was_queried": "2023-05-23T13:34:45.720520"
         }
     ]
-,["EVENT", "8ead91caf92e11eda9fb36a166cdd3a9", {"content": "#stackjoin test [85609]", "created_at": 1684821447, "id": "65b231cbc40a489b13a935475a1c1877285ea7f65ff5d11704a41540c81dccd9", "kind": 1, "pubkey": "5d31182c51f13a3ef3f903418a92653c192cc723c5c618214ec9fc1e640606f5", "sig": "1a437b4bef27e747da73f1a87151e4c2dc903b22d262c98f9e35455551abe61f68fe07af34bf54761ca076df9c27697262889d7a30bae1f44961b4ed6027587e", "tags": [["t", "stackjoin"]]}, {"datetime_event_was_queried": "2023-05-23T01:57:27.715200"}]]
+,["EVENT", "18902ed2f99011ed935d804a14673ee3", {"content": "#stackjoin test [50875]", "created_at": 1684863299, "id": "5e1bd534b4ccda8d900b2ebbe1fe17c3fe162b567c0fe5161ea46c67be064eec", "kind": 1, "pubkey": "9f67b024f35b880ed8f55a886642eb8f242905f953c8050461a293437cd33de9", "sig": "abd7e778381cb7bdf4cb6a59c1f71610224bde54d6584646f889650185ec04d377d6953bfdbc22d80091842f2592abe2eda9d5fe6bf4877736fa480fe5e78389", "tags": [["t", "stackjoin"]]}, {"datetime_event_was_queried": "2023-05-23T13:35:00.309051"}]]

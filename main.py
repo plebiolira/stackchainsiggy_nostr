@@ -21,8 +21,8 @@ ENV_FILE = find_dotenv()
 if ENV_FILE:
     load_dotenv(ENV_FILE)
 
-public_key = PublicKey.from_npub(os.environ.get("PUBLIC_KEY")).hex()
-private_key = PrivateKey.from_nsec(os.environ.get("PRIVATE_KEY")).hex()
+public_key = PublicKey.from_npub(os.environ.get("PUBLIC_KEY"))
+private_key = PrivateKey.from_nsec(os.environ.get("PRIVATE_KEY"))
 
 
 def timer(func):
@@ -127,7 +127,7 @@ if __name__ == "__main__":
       since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_bug fiwas_queried']).timestamp())
       empty_json_since = 0
 
-  relay_manager = main(public_key, since=since, empty_json_since=empty_json_since)
+  relay_manager = main(public_key.hex(), since=since, empty_json_since=empty_json_since)
   
   with open('last_time_checked.json', 'w') as f:
     pass
@@ -160,7 +160,7 @@ if __name__ == "__main__":
         close_connections(relay_manager)
         time.sleep(5)
         print('restarting connection on relay manager')
-        relay_manager = main(public_key, since=last_queried_event_datetime)
+        relay_manager = main(public_key.hex(), since=last_queried_event_datetime)
         print('resuming')
   except (KeyboardInterrupt, SystemExit):
       # Not strictly necessary if daemonic mode is enabled but should be done if possible
