@@ -14,6 +14,7 @@ from set_query_filters import *
 import os
 import time
 from append_json import *
+from store_stackjoin import *
 
 def timer(func):
     def wrapper():
@@ -27,12 +28,9 @@ def main(public_key, empty_json_since=0, since=0):
 
   print(request, filters)
   relay_manager = RelayManager()
-  relay_manager.add_relay("wss://relay.damus.io")
-  # relay_manager.add_relay("wss://nostr-pub.wellorder.net")
-  # relay_manager.add_relay("wss://relay.snort.social")
-  # relay_manager.add_relay("wss://nostr1.current.fyi")
-  # relay_manager.add_relay("wss://relay.current.fyi")
-  # relay_manager.add_relay("wss://relay.nostr.bg")
+  with open('relay_list.txt', 'r') as f:
+    for line in f:
+        relay_manager.add_relay(line.strip())
   relay_manager.add_subscription(subscription_id, filters)
   relay_manager.open_connections({"cert_reqs": ssl.CERT_NONE}) # NOTE: This disables ssl certificate verification
   time.sleep(1.25) # allow the connections to open
@@ -83,13 +81,18 @@ def check_json_for_new_notes_and_reply():
   with open('events.json', 'r') as f:
     events = json.load(f)
     for event in events:
-      if datetime.datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > last_time_checked:
+      # default functionality
+      if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > last_time_checked:
+      # for grabbing individual events
+      # if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > 0:
         print("new event found on json")
         post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']]])
+        print('starting store stackjoin')
+        store_stackjoin(event, datetime.fromtimestamp(event[2]['created_at']).isoformat())
   
   with open('last_time_checked.json', 'r+') as f:
     times_checked = json.load(f)
-    times_checked.append({"checked_time":datetime.datetime.now().timestamp(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
+    times_checked.append({"checked_time":datetime.now().timestamp(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
     if len(times_checked) > 5:
       # times_checked[:len(times_checked)-5] = ""
       times_checked.pop(0)
@@ -98,19 +101,21 @@ def check_json_for_new_notes_and_reply():
     f.write(json.dumps(times_checked, indent=4))
 
 if __name__ == "__main__":
-  if not os.path.exists('events.json'):
-    with open('events.json','w') as f:
-      pass
+  # if not os.path.exists('events.json'):
+  #   with open('events.json','w') as f:
+  #     pass
+  with open('events.json','w') as f:
+    pass
   if os.stat('events.json').st_size == 0:
     with open('events.json','w') as f:
       f.write("[]")
   with open('events.json','r') as f:
     events = json.load(f)
     if events == []:
-      empty_json_since = int(datetime.datetime.fromisoformat("2023-01-01").timestamp())
+      empty_json_since = int(datetime.fromisoformat("2023-05-20").timestamp())
       since = empty_json_since
     else:
-      since = int(datetime.datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
+      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
       empty_json_since = 0
 
   public_key = PublicKey.from_npub("npub1x2v0vnn059dv3ep9h45lwfgdnynl9nseqsg7safkrrqdc6va3c2qs0kkjg").hex()
@@ -121,7 +126,7 @@ if __name__ == "__main__":
   with open('last_time_checked.json','w') as f:
     f.write("[]")
     times_checked = []
-    times_checked.append({"checked_time": datetime.datetime.now().timestamp(), "number_of_checks":0})
+    times_checked.append({"checked_time": datetime.now().timestamp(), "number_of_checks":0})
     f.seek(0)
     f.write(json.dumps(times_checked, indent=4))
 
@@ -139,8 +144,9 @@ if __name__ == "__main__":
     while True:
         with open('events.json', 'r') as f:
           events = json.load(f)
-          last_queried_event_datetime = int(datetime.datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
+          last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
         # print(f"last queried event datetime {last_queried_event_datetime}")
+        # quit()
         time.sleep(600)
         print('closing connections to relays')
         close_connections(relay_manager)

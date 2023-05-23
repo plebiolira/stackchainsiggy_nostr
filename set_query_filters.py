@@ -29,13 +29,14 @@ def set_query_filters(public_key, since):
   # query events since and until specific dates
   # filters = Filters([Filter(authors=[public_key], kinds=[EventKind.TEXT_NOTE], since=1683602000, until=1676091000)])
 
-  # query list of events since specific date
+  # query list of events since specific date - 
+  # bot's default functionality - commented out temporarily to build stackjoin
   filter = Filter(kinds=[EventKind.TEXT_NOTE], since=since)
   filter.add_arbitrary_tag("#t",["stackjoin"])
   filters = Filters([filter])
 
   # query a specific event from relays, based on event_id
-  # filters = Filters([Filter(event_ids=["45e7358ab11687c68a27bd0ceb33836b014b1e9c3ed9f46d0fadd07d10bbe7e3"])])
+  # filters = Filters([Filter(event_ids=["fe6ed4abd11e38646492446d45ddb1fad164db822642514dbc747c17a26e08de"])])
 
   request = [ClientMessageType.REQUEST, subscription_id]
   request.extend(filters.to_json_array())

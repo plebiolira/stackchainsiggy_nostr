@@ -1,0 +1,8 @@
+.jpeg
+.png
+.gif
+.webm
+.jpg
+.mp4
+.webp
+.mov
