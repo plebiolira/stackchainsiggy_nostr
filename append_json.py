@@ -14,7 +14,7 @@ def timer(func):
 
 @timer
 def append_json(event_msg: json):
-  time.sleep(0.1)
+  time.sleep(0.2)
   print('\nrunning append_json')
   with open('events.json','r+') as f:
     append_event = True
@@ -30,7 +30,7 @@ def append_json(event_msg: json):
       print('didnt find event on json, appending')
       datetime_event_was_queried = {"datetime_event_was_queried":datetime.datetime.now().isoformat()}
       event_msg[2]['content'] = event_msg[2]['content'].replace("\'","").replace("\"","")
-      print(f"event_msg on append_json is {event_msg}")
+      # print(f"event_msg on append_json is {event_msg}")
       event_msg.append(datetime_event_was_queried)
       # event_msg.event.json.append(datetime_event_was_queried)
       # event_msg = json.load(event_msg)

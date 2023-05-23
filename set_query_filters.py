@@ -36,7 +36,7 @@ def set_query_filters(public_key, since):
   filters = Filters([filter])
 
   # query a specific event from relays, based on event_id
-  # filters = Filters([Filter(event_ids=["fe6ed4abd11e38646492446d45ddb1fad164db822642514dbc747c17a26e08de"])])
+  # filters = Filters([Filter(event_ids=["29053373b9267ce88dc72001ee25c3c6a657ebb46e607467493291eb1ab5201d"])])
 
   request = [ClientMessageType.REQUEST, subscription_id]
   request.extend(filters.to_json_array())

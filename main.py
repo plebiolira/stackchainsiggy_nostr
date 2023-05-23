@@ -112,7 +112,7 @@ if __name__ == "__main__":
   with open('events.json','r') as f:
     events = json.load(f)
     if events == []:
-      empty_json_since = int(datetime.fromisoformat("2023-05-20").timestamp())
+      empty_json_since = int(datetime.now().timestamp()-100000)
       since = empty_json_since
     else:
       since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())

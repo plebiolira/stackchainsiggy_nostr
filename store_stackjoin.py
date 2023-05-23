@@ -18,19 +18,17 @@ ENV_FILE = find_dotenv()
 if ENV_FILE:
     load_dotenv(ENV_FILE)
 
-AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
-AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
 AIRTABLE_API_KEY = os.environ.get("AIRTABLE_API_KEY")
 AIRTABLE_BEARER_TOKEN = os.environ.get("AIRTABLE_BEARER_TOKEN")
 
-def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", stackjoinadd_tweet_message = "", block_height_or_tweet_id="", stackjoin_tweets_or_blocks = "", dollar_amount=""):
+def store_stackjoin(event_json: list, note_datetimeISO, stackjoinadd_reporter = "0", stackjoinadd_tweet_message = "", block_height_or_tweet_id="", stackjoin_tweets_or_blocks = "", dollar_amount=""):
     print("running store_stackjoin function")
     # print(f"event_json is {event_json}")
     # temporarily storing json on a file, it will be later transferred directly through the function, just the two lines below, and indenting the whole function to chnage
     # with open(json_response,'r') as f:
         # json_response = json.load(f)
-    note_id = PublicKey.hex_to_bech32(event_json[2]["pubkey"], 'Encoding.BECH32')
-    author_pubkey = {PublicKey.hex_to_bech32(event_json[2]['pubkey'], 'Encoding.BECH32')}
+    note_id = PublicKey.hex_to_bech32(event_json[2]["id"], 'Encoding.BECH32')
+    author_pubkey = PublicKey.hex_to_bech32(event_json[2]["pubkey"], 'Encoding.BECH32')
     content = event_json[2]["content"]
     if note_datetimeISO == None:
         note_datetimeISO = datetime.utcnow().isoformat()
@@ -46,7 +44,7 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
     #     if item['id'] == author_pubkey:
     #         print (item['id'])
     #         author_handle = item['username']
-    author_handle = query_user_display_name(author_pubkey)
+    author_handle = query_user_display_name(event_json[2]['pubkey'])
     print(f"the author handle is {author_handle}")
     img_src_dict = []
     airtable_image_files_dict = []
@@ -170,17 +168,21 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
 
     # creating row or updating row on Airtable
     if stackjoin_tweets_or_blocks == "blocks":
-        stackjoin_tweets_or_blocks = "tblcwUsNLE3AecXpu"
         stackjoin_tweets_or_blocks_filter_term = "block_height"
+        stackjoin_tweets_or_blocks = "tblcwUsNLE3AecXpu"
     else:
         stackjoin_tweets_or_blocks_filter_term = "tweet_id"
         stackjoin_tweets_or_blocks = "tblAHtdeESADDCKGA"
+        block_height_or_tweet_id = note_id
     table = Table(AIRTABLE_API_KEY, "appiNbM9r6Zy7G2ux", stackjoin_tweets_or_blocks)
     url = "https://api.airtable.com/v0/appiNbM9r6Zy7G2ux/"+stackjoin_tweets_or_blocks
     if block_height_or_tweet_id == "":
         block_height_or_tweet_id = 21000000
     headers = {"Authorization": "Bearer "+AIRTABLE_BEARER_TOKEN}
-    x = requests.get(url, headers=headers, params={'fields[]':[stackjoin_tweets_or_blocks_filter_term], 'filterByFormula':stackjoin_tweets_or_blocks_filter_term+"="+str(block_height_or_tweet_id)}).json()
+    print(stackjoin_tweets_or_blocks_filter_term)
+    
+    # x = requests.get(url, headers=headers, params={'fields[]':[stackjoin_tweets_or_blocks_filter_term], 'filterByFormula':stackjoin_tweets_or_blocks_filter_term+"="+"1626718305800306688"}).json()
+    x = requests.get(url, headers=headers, params={'maxRecords':2, 'fields[]':[stackjoin_tweets_or_blocks_filter_term], 'filterByFormula':'FIND("'+block_height_or_tweet_id+'",'+stackjoin_tweets_or_blocks_filter_term+')>0'}).json()
     # print(json.dumps(x,indent=4))
     print(x)
     if x['records'] == []:
@@ -191,6 +193,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
 
     if airtable_image_files_dict == []:
         image_url_dict = []
+
+    event_json_string = ' '.join(map(str, event_json))
 
     # checking if block
     if stackjoin_tweets_or_blocks == "tblcwUsNLE3AecXpu": 
@@ -216,7 +220,7 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "block_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
                 "airtable_API_import_notes": airtable_API_import_notes.strip(),
-                "nostr_raw_json": json.dumps(event_json)
+                "nostr_raw_json": event_json_string
                 })
         # if updating: 
         elif create_or_update == "update":
@@ -233,7 +237,7 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "block_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
                 "airtable_API_import_notes": airtable_API_import_notes.strip(),
-                "nostr_raw_json": json.dumps(event_json)
+                "nostr_raw_json": event_json_string
                 })
     # for stackjoins
     else:
@@ -261,7 +265,7 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "tweet_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
                 "airtable_API_import_notes": airtable_API_import_notes.strip(),
-                "nostr_raw_json": json.dumps(event_json)
+                "nostr_raw_json": event_json_string
                 })        
         # if updating: 
         elif create_or_update == "update":
@@ -280,7 +284,7 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "tweet_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
                 "airtable_API_import_notes": airtable_API_import_notes.strip(),
-                "nostr_raw_json": json.dumps(event_json)
+                "nostr_raw_json": event_json_string
                 })
 
     if stackjoinadd_reporter != "0":
