@@ -12,6 +12,7 @@ from pyairtable import Table
 import os
 from query_user_display_name import *
 from extract_image_url_from_content import *
+from python_nostr_package.nostr import PublicKey
 
 ENV_FILE = find_dotenv()
 if ENV_FILE:
@@ -28,8 +29,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
     # temporarily storing json on a file, it will be later transferred directly through the function, just the two lines below, and indenting the whole function to chnage
     # with open(json_response,'r') as f:
         # json_response = json.load(f)
-    note_id = event_json[2]["id"]
-    author_pubkey = event_json[2]["pubkey"]
+    note_id = PublicKey.hex_to_bech32(event_json[2]["pubkey"], 'Encoding.BECH32')
+    author_pubkey = {PublicKey.hex_to_bech32(event_json[2]['pubkey'], 'Encoding.BECH32')}
     content = event_json[2]["content"]
     if note_datetimeISO == None:
         note_datetimeISO = datetime.utcnow().isoformat()
@@ -214,7 +215,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "block_timestamp": int(note_timestamp),
                 "block_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
-                "airtable_API_import_notes": airtable_API_import_notes.strip()
+                "airtable_API_import_notes": airtable_API_import_notes.strip(),
+                "nostr_raw_json": json.dumps(event_json)
                 })
         # if updating: 
         elif create_or_update == "update":
@@ -230,7 +232,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "block_timestamp": int(note_timestamp),
                 "block_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
-                "airtable_API_import_notes": airtable_API_import_notes.strip()
+                "airtable_API_import_notes": airtable_API_import_notes.strip(),
+                "nostr_raw_json": json.dumps(event_json)
                 })
     # for stackjoins
     else:
@@ -257,7 +260,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "tweet_timestamp": int(note_timestamp),
                 "tweet_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
-                "airtable_API_import_notes": airtable_API_import_notes.strip()
+                "airtable_API_import_notes": airtable_API_import_notes.strip(),
+                "nostr_raw_json": json.dumps(event_json)
                 })        
         # if updating: 
         elif create_or_update == "update":
@@ -275,7 +279,8 @@ def store_stackjoin(event_json, note_datetimeISO, stackjoinadd_reporter = "0", s
                 "tweet_timestamp": int(note_timestamp),
                 "tweet_datetimeISO": note_datetimeISO,
                 "img_src_dict": str(img_src_dict).translate({39: None,91: None, 93: None, 44: None}),
-                "airtable_API_import_notes": airtable_API_import_notes.strip()
+                "airtable_API_import_notes": airtable_API_import_notes.strip(),
+                "nostr_raw_json": json.dumps(event_json)
                 })
 
     if stackjoinadd_reporter != "0":
