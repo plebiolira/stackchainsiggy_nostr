@@ -15,6 +15,15 @@ import os
 import time
 from append_json import *
 from store_stackjoin import *
+from dotenv import load_dotenv, find_dotenv
+
+ENV_FILE = find_dotenv()
+if ENV_FILE:
+    load_dotenv(ENV_FILE)
+
+public_key = PublicKey.from_npub(os.environ.get("PUBLIC_KEY")).hex()
+private_key = PrivateKey.from_nsec(os.environ.get("PRIVATE_KEY")).hex()
+
 
 def timer(func):
     def wrapper():
@@ -86,7 +95,7 @@ def check_json_for_new_notes_and_reply():
       # for grabbing individual events
       # if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > 0:
         print("new event found on json")
-        post_note(PrivateKey.from_nsec("nsec1zajhm4ejm9sf50dc88eyex4myqf9wt8ru2d46wjs72am9w0t89yqmamg3e"), "content todo", [["e",event[2]['id']]])
+        post_note(private_key), "content todo", [["e",event[2]['id']]])
         print('starting store stackjoin')
         store_stackjoin(event, datetime.fromtimestamp(event[2]['created_at']).isoformat())
   
@@ -118,7 +127,6 @@ if __name__ == "__main__":
       since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
       empty_json_since = 0
 
-  public_key = PublicKey.from_npub("npub1x2v0vnn059dv3ep9h45lwfgdnynl9nseqsg7safkrrqdc6va3c2qs0kkjg").hex()
   relay_manager = main(public_key, since=since, empty_json_since=empty_json_since)
   
   with open('last_time_checked.json', 'w') as f:
