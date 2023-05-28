@@ -65,12 +65,12 @@ def main(public_key, empty_json_since=0, since=0):
 
     append_json(event_msg = event_msg.event.json)
     
-    if since == empty_json_since:
-      with open('events.json', 'r+') as f:
-        events = json.load(f)
-        events.reverse()
-        f.seek(0)
-        f.write(json.dumps(events, indent=4))
+  if since == empty_json_since:
+    with open('events.json', 'r+') as f:
+      events = json.load(f)
+      events.reverse()
+      f.seek(0)
+      f.write(json.dumps(events, indent=4))
 
   return relay_manager
  
@@ -110,14 +110,9 @@ def check_json_for_new_notes_and_reply():
     f.write(json.dumps(times_checked, indent=4))
 
 if __name__ == "__main__":
-  # if not os.path.exists('events.json'):
-  #   with open('events.json','w') as f:
-  #     pass
   with open('events.json','w') as f:
-    pass
-  if os.stat('events.json').st_size == 0:
-    with open('events.json','w') as f:
-      f.write("[]")
+    f.write("[]")
+  # the funcionality below was set in case we were preserving events.json file between loads, now we reinitialize it every time. Leaving it here as it's inconsequential.
   with open('events.json','r') as f:
     events = json.load(f)
     if events == []:
@@ -128,7 +123,15 @@ if __name__ == "__main__":
       empty_json_since = 0
 
   relay_manager = main(public_key.hex(), since=since, empty_json_since=empty_json_since)
-  
+
+  #adding sample event in case initial query brings no results
+  with open('events.json','r+') as f:
+    events = json.load(f)
+    if events == []:
+      events.append(["EVENT","a98d1b50fd8411edbf29804a14673ee3",{"content": "sample event","created_at": int(datetime.now().timestamp()),"id":"b3fb0066aa7defc45cad1eee9c3b03d49012cf9001c4eb22b04e7010be52fb87","kind": 1,"pubkey":"b76e5023a8fffcc2c3b4bebeb7a2dd6d7676d9c2122753e364b6427ddd065bb7","sig":"fb7baec1aff77c8acde69f524b32da2c8c09cbf8be1ba90d314e964d59296c03eed07c0871c1b7525fff60ce7fee73ef9e80997716c7882ef180267fb73b61c7","tags": [["t","stackjoin"]]},{"datetime_event_was_queried": datetime.fromtimestamp(datetime.now().timestamp()-100000).isoformat()}])
+    f.seek(0)
+    f.write(json.dumps(events, indent=4))
+
   with open('last_time_checked.json', 'w') as f:
     pass
   with open('last_time_checked.json','w') as f:
