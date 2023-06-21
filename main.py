@@ -8,7 +8,8 @@ from python_nostr_package.nostr import PublicKey, PrivateKey
 # from nostr.relay_manager import RelayManager
 # from nostr.key import PublicKey
 import datetime
-from apscheduler.schedulers.background import BackgroundScheduler
+# from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.schedulers.blocking import BlockingScheduler
 from post_note import *
 from set_query_filters import *
 import os
@@ -32,7 +33,7 @@ def timer(func):
         print("check_json_for_new_notes_and_reply function took: ", time.time() - before, "seconds")    
     return wrapper
 
-def main(public_key, empty_json_since=0, since=0):
+def query_nostr_relays(public_key, empty_json_since=0, since=0):
   request, filters, subscription_id = set_query_filters(public_key, since)
 
   print(request, filters)
@@ -83,6 +84,15 @@ def close_connections(relay_manager):
 def check_json_for_new_notes_and_reply():
   print("running check_json_for_new_notes")
 
+  with open('events.json', 'r') as f:
+    events = json.load(f)
+    last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
+
+  print(f"last queried event datetime {last_queried_event_datetime}")
+
+  relay_manager = query_nostr_relays(public_key.hex(), since=last_queried_event_datetime)
+  close_connections(relay_manager)
+
   with open('last_time_checked.json', 'r') as f:
     times_checked = json.load(f)
     last_time_checked = times_checked[len(times_checked)-1]['checked_time']
@@ -119,10 +129,10 @@ if __name__ == "__main__":
       empty_json_since = int(datetime.now().timestamp()-100000)
       since = empty_json_since
     else:
-      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_bug fiwas_queried']).timestamp())
+      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
       empty_json_since = 0
 
-  relay_manager = main(public_key.hex(), since=since, empty_json_since=empty_json_since)
+  relay_manager = query_nostr_relays(public_key.hex(), since=since, empty_json_since=empty_json_since)
 
   #adding sample event in case initial query brings no results
   with open('events.json','r+') as f:
@@ -145,26 +155,23 @@ if __name__ == "__main__":
   time.sleep(1)
   check_json_for_new_notes_and_reply()
 
-  scheduler = BackgroundScheduler()
-  scheduler.add_job(check_json_for_new_notes_and_reply, 'interval', seconds=10)
+  # scheduler = BackgroundScheduler()
+  scheduler = BlockingScheduler()
+  scheduler.add_job(check_json_for_new_notes_and_reply, 'interval', seconds=30)
   print('\nstarting scheduler')
   scheduler.start()
 
-  try:
-    # This is here to simulate application activity (which keeps the main thread alive).
-    while True:
-        with open('events.json', 'r') as f:
-          events = json.load(f)
-          last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
-        # print(f"last queried event datetime {last_queried_event_datetime}")
-        # quit()
-        time.sleep(600)
-        print('closing connections to relays')
-        close_connections(relay_manager)
-        time.sleep(5)
-        print('restarting connection on relay manager')
-        relay_manager = main(public_key.hex(), since=last_queried_event_datetime)
-        print('resuming')
-  except (KeyboardInterrupt, SystemExit):
-      # Not strictly necessary if daemonic mode is enabled but should be done if possible
-      scheduler.shutdown()
+  while True:
+      # with open('events.json', 'r') as f:
+      #   events = json.load(f)
+      #   last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
+      # print(f"last queried event datetime {last_queried_event_datetime}")
+      # quit()
+      time.sleep(600)
+      # print('closing connections to relays')
+      # close_connections(relay_manager)
+      # time.sleep(5)
+      # print('restarting connection on relay manager')
+      # relay_manager = main(public_key.hex(), since=last_queried_event_datetime)
+      # print('resuming')
+      pass

@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "checked_time": 1687359316.016604,
+        "number_of_checks": 0
+    },
+    {
+        "checked_time": 1687359319.838821,
+        "number_of_checks": 1
+    },
+    {
+        "checked_time": 1687359358.537024,
+        "number_of_checks": 2
+    },
+    {
+        "checked_time": 1687359382.780445,
+        "number_of_checks": 3
+    },
+    {
+        "checked_time": 1687359412.758552,
+        "number_of_checks": 4
+    }
+]
