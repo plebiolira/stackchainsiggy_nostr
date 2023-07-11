@@ -26,6 +26,6 @@ def post_note(private_key, content, tags):
 
     relay_manager.publish_event(event)
     print("note sent")
-    time.sleep(1)
+    time.sleep(5)
 
     relay_manager.close_connections()
