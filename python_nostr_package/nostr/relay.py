@@ -44,7 +44,11 @@ class Relay:
         self.ws.close()
 
     def publish(self, message: str):
-        self.ws.send(message)
+        try:
+            self.ws.send(message)
+        except:
+            print("caught exception")
+
 
     def add_subscription(self, id, filters: Filters):
         with self.lock:

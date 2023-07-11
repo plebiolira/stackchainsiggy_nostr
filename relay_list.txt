@@ -2,6 +2,4 @@ wss://relay.damus.io
 wss://nos.lol
 wss://nostr.wine
 wss://relay.snort.social
-wss://free.nostr.lc
-wss://nostr-relay.derekross.me
 wss://relay.nostr.bg

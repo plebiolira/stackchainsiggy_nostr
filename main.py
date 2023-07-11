@@ -25,18 +25,16 @@ if ENV_FILE:
 public_key = PublicKey.from_npub(os.environ.get("PUBLIC_KEY"))
 private_key = PrivateKey.from_nsec(os.environ.get("PRIVATE_KEY"))
 
+HASHTAG = "stackjoin"
 
-def timer(func):
-    def wrapper():
-        before = time.time()
-        func()
-        print("check_json_for_new_notes_and_reply function took: ", time.time() - before, "seconds")    
-    return wrapper
 
-def query_nostr_relays(public_key, empty_json_since=0, since=0):
-  request, filters, subscription_id = set_query_filters(public_key, since)
+def query_nostr_relays(type_of_query, query_term, since=0):
+  if type_of_query != "individual_event":
+    event_id = ""
+  request, filters, subscription_id = set_query_filters(type_of_query=type_of_query, query_term=query_term, since=since)
 
   print(request, filters)
+
   relay_manager = RelayManager()
   with open('relay_list.txt', 'r') as f:
     for line in f:
@@ -46,132 +44,80 @@ def query_nostr_relays(public_key, empty_json_since=0, since=0):
   time.sleep(1.25) # allow the connections to open
   message = json.dumps(request)
   relay_manager.publish_message(message)
-  time.sleep(1) # allow the messages to send
+  time.sleep(20) # allow the messages to send
 
-  while relay_manager.message_pool.has_events():
-    # print(f"since is {since}")
-    event_msg = relay_manager.message_pool.get_event()
-    print("\n\n___________NEW_EVENT__________")
-    # print(f"{event_msg}\n")
-    # print(event_msg.event.content)
-    # print(f"created_at: {event_msg.event.created_at}")
-    # print(f"created at ISO: {datetime.datetime.fromtimestamp(event_msg.event.created_at)}")
-    # print(f"event.tags: {event_msg.event.tags}")
-    # print(f"event.kind: {event_msg.event.kind}")
-    # print(event_msg.event.public_key)
-    # print(event_msg.event.signature)
-    # print(f"event.id: {event_msg.event.id}")
-    # print(f"event.json: {event_msg.event.json}")
-    # print(f"event.json[2]['id']: {event_msg.event.json[2]['id']}")
-
-    append_json(event_msg = event_msg.event.json)
-    
-  if since == empty_json_since:
-    with open('events.json', 'r+') as f:
-      events = json.load(f)
-      events.reverse()
-      f.seek(0)
-      f.write(json.dumps(events, indent=4))
-
-  return relay_manager
- 
-  # relay_manager.close_connections()
-
-def close_connections(relay_manager):
   relay_manager.close_connections()
 
-@timer
-def check_json_for_new_notes_and_reply():
-  print("running check_json_for_new_notes")
+  return relay_manager.message_pool
 
-  with open('events.json', 'r') as f:
-    events = json.load(f)
-    last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
-
-  print(f"last queried event datetime {last_queried_event_datetime}")
-
-  relay_manager = query_nostr_relays(public_key.hex(), since=last_queried_event_datetime)
-  close_connections(relay_manager)
+def stackchainsiggy_nostr(start_time_for_first_run = 0):
+  print("\n*****\n"+datetime.now().isoformat()+": running stackchainsiggy_nostr")
 
   with open('last_time_checked.json', 'r') as f:
     times_checked = json.load(f)
-    last_time_checked = times_checked[len(times_checked)-1]['checked_time']
- 
-  with open('events.json', 'r') as f:
-    events = json.load(f)
-    for event in events:
-      # default functionality
-      if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > last_time_checked:
-      # for grabbing individual events
-      # if datetime.fromisoformat(event[3]['datetime_event_was_queried']).timestamp() > 0:
-        print("new event found on json")
-        post_note(private_key, "content todo", [["e",event[2]['id']]])
-        print('starting store stackjoin')
-        store_stackjoin(event, datetime.fromtimestamp(event[2]['created_at']).isoformat())
+    last_time_checked = int(times_checked[0]['checked_time'])
+  if start_time_for_first_run != 0:
+    last_time_checked = start_time_for_first_run
+    print(f"checking from datetime ISO {datetime.fromtimestamp(start_time_for_first_run).isoformat()}")
+  else:
+    print(f'last time checked ISO is {times_checked[0]["checked_time_iso"]}')
+
+
+  message_pool_relay_manager_hashtag = query_nostr_relays(since=last_time_checked, type_of_query="hashtag", query_term=HASHTAG)
+
+  while message_pool_relay_manager_hashtag.has_events():
+    event_msg = message_pool_relay_manager_hashtag.get_event()
+    print("\n\n___________NEW_EVENT__________")
+    print(f"event.json: {event_msg.event.json}")
+    has_hashtag = False
+    for tag in event_msg.event.json[2]["tags"]:
+      if "t" in tag:
+        print("event tag found")
+        for item in tag:
+          if item == HASHTAG:
+            print(f"{HASHTAG} hashtag found")
+            if event_msg.event.json[0] == "EVENT":
+              print(f"\n>> Poster's profile on snort.social: https://snort.social/p/{PublicKey.hex_to_bech32(event_msg.event.json[2]['pubkey'], 'Encoding.BECH32')}")
+              print(f">> Event on snort.social: https://snort.social/e/{PublicKey.hex_to_bech32(event_msg.event.json[2]['id'], 'Encoding.BECH32')}")
+            has_hashtag = True
+    # additional check to see if event is already in json, hence already responded to
+    new_event = True
+    with open("events.json", "r") as f:
+      events = json.load(f)
+      for event in events:
+        if event_msg.event.json[2]["id"] == event[2]["id"]:
+          new_event = False
+          print("found event on json, skipping append_json and posting")
+    if new_event == True:
+      print("didn't find event on json, moving forward to append_json and posting")
+    if has_hashtag == True and new_event == True:
+      append_json(event_msg = event_msg.event.json)
+      print('starting store stackjoin')
+      store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event[2]['created_at']).isoformat())
+      # post_note(private_key, "content todo", [["e",event[2]['id']]])
   
+  # updating last time checked for new notes
   with open('last_time_checked.json', 'r+') as f:
     times_checked = json.load(f)
-    times_checked.append({"checked_time":datetime.now().timestamp(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
-    if len(times_checked) > 5:
-      # times_checked[:len(times_checked)-5] = ""
+    times_checked.reverse()
+    times_checked.append({"checked_time":datetime.now().timestamp(), "checked_time_iso": datetime.now().now().isoformat(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
+    if len(times_checked) > 20:
       times_checked.pop(0)
+    times_checked.reverse()
     f.seek(0)
     f.truncate(0)
     f.write(json.dumps(times_checked, indent=4))
 
+  print("finished running stackchainsiggy_nostr")
+
 if __name__ == "__main__":
-  with open('events.json','w') as f:
-    f.write("[]")
-  # the funcionality below was set in case we were preserving events.json file between loads, now we reinitialize it every time. Leaving it here as it's inconsequential.
-  with open('events.json','r') as f:
-    events = json.load(f)
-    if events == []:
-      empty_json_since = int(datetime.now().timestamp()-100000)
-      since = empty_json_since
-    else:
-      since = int(datetime.fromisoformat(events[-1+len(events):][0][3]['datetime_event_was_queried']).timestamp())
-      empty_json_since = 0
 
-  relay_manager = query_nostr_relays(public_key.hex(), since=since, empty_json_since=empty_json_since)
+  #running main function once
+  # stackchainsiggy_nostr(start_time_for_first_run=1688849212)
+  # stackchainsiggy_nostr()
+  stackchainsiggy_nostr(start_time_for_first_run=int(datetime.now().timestamp()))
 
-  #adding sample event in case initial query brings no results
-  with open('events.json','r+') as f:
-    events = json.load(f)
-    if events == []:
-      events.append(["EVENT","a98d1b50fd8411edbf29804a14673ee3",{"content": "sample event","created_at": int(datetime.now().timestamp()),"id":"b3fb0066aa7defc45cad1eee9c3b03d49012cf9001c4eb22b04e7010be52fb87","kind": 1,"pubkey":"b76e5023a8fffcc2c3b4bebeb7a2dd6d7676d9c2122753e364b6427ddd065bb7","sig":"fb7baec1aff77c8acde69f524b32da2c8c09cbf8be1ba90d314e964d59296c03eed07c0871c1b7525fff60ce7fee73ef9e80997716c7882ef180267fb73b61c7","tags": [["t","stackjoin"]]},{"datetime_event_was_queried": datetime.fromtimestamp(datetime.now().timestamp()-100000).isoformat()}])
-    f.seek(0)
-    f.write(json.dumps(events, indent=4))
-
-  with open('last_time_checked.json', 'w') as f:
-    pass
-  with open('last_time_checked.json','w') as f:
-    f.write("[]")
-    times_checked = []
-    times_checked.append({"checked_time": datetime.now().timestamp(), "number_of_checks":0})
-    f.seek(0)
-    f.write(json.dumps(times_checked, indent=4))
-
-  #running check_json once
-  time.sleep(1)
-  check_json_for_new_notes_and_reply()
-
-  # scheduler = BackgroundScheduler()
   scheduler = BlockingScheduler()
-  scheduler.add_job(check_json_for_new_notes_and_reply, 'interval', seconds=60)
+  scheduler.add_job(stackchainsiggy_nostr, 'interval', seconds=90)
   print('\nstarting scheduler')
   scheduler.start()
-
-  while True:
-      # with open('events.json', 'r') as f:
-      #   events = json.load(f)
-      #   last_queried_event_datetime = int(datetime.fromisoformat(events[len(events)-1][3]['datetime_event_was_queried']).timestamp())
-      # print(f"last queried event datetime {last_queried_event_datetime}")
-      # quit()
-      time.sleep(600)
-      # print('closing connections to relays')
-      # close_connections(relay_manager)
-      # time.sleep(5)
-      # print('restarting connection on relay manager')
-      # relay_manager = main(public_key.hex(), since=last_queried_event_datetime)
-      # print('resuming')
-      pass
