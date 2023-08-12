@@ -6,8 +6,8 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives import padding
 from hashlib import sha256
 
-from nostr.delegation import Delegation
-from nostr.event import Event
+from python_nostr_package.nostr.delegation import Delegation
+from python_nostr_package.nostr.event import Event
 from . import bech32
 
 

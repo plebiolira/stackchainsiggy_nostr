@@ -51,6 +51,6 @@ def query_user_display_name(author_pubkey):
   relay_manager.close_connections()
   return display_name
 
-if __name__=="__main__":
-   query_user_display_name(PublicKey.from_npub("npub1cq47m26ft2xh8c33jtapvxstsdzgy86gg35prv0gzravvk6cfaysa9sukg").hex())
-   query_user_display_name(PublicKey.from_npub("npub1sn0wdenkukak0d9dfczzeacvhkrgz92ak56egt7vdgzn8pv2wfqqhrjdv9").hex())
+# if __name__=="__main__":
+#    query_user_display_name(PublicKey.from_npub("npub1cq47m26ft2xh8c33jtapvxstsdzgy86gg35prv0gzravvk6cfaysa9sukg").hex())
+#    query_user_display_name(PublicKey.from_npub("npub1sn0wdenkukak0d9dfczzeacvhkrgz92ak56egt7vdgzn8pv2wfqqhrjdv9").hex())

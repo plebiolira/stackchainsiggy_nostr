@@ -3,7 +3,7 @@ import json
 from enum import IntEnum
 from secp256k1 import PrivateKey, PublicKey
 from hashlib import sha256
-from nostr.message_type import ClientMessageType
+from python_nostr_package.nostr.message_type import ClientMessageType
 
 
 class EventKind(IntEnum):

@@ -93,7 +93,7 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
     if has_hashtag == True and new_event == True:
       append_json(event_msg = event_msg.event.json)
       print('starting store stackjoin')
-      store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event[2]['created_at']).isoformat())
+      store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event_msg.event.json[2]['created_at']).isoformat())
       post_note(private_key, "content todo", [["e",event[2]['id']]])
   
   # updating last time checked for new notes

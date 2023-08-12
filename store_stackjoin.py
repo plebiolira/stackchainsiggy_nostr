@@ -22,6 +22,7 @@ AIRTABLE_API_KEY = os.environ.get("AIRTABLE_API_KEY")
 AIRTABLE_BEARER_TOKEN = os.environ.get("AIRTABLE_BEARER_TOKEN")
 
 def store_stackjoin(event_json: list, note_datetimeISO, stackjoinadd_reporter = "0", stackjoinadd_tweet_message = "", block_height_or_tweet_id="", stackjoin_tweets_or_blocks = "", dollar_amount=""):
+    print(f"note_datetimeISO is {note_datetimeISO}")
     print("running store_stackjoin function")
     # print(f"event_json is {event_json}")
     # temporarily storing json on a file, it will be later transferred directly through the function, just the two lines below, and indenting the whole function to chnage
