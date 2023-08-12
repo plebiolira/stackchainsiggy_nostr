@@ -17,6 +17,8 @@ import time
 from append_json import *
 from store_stackjoin import *
 from dotenv import load_dotenv, find_dotenv
+from extract_note_id_to_stackjoinadd import *
+from query_user_display_name import *
 
 ENV_FILE = find_dotenv()
 if ENV_FILE:
@@ -25,8 +27,7 @@ if ENV_FILE:
 public_key = PublicKey.from_npub(os.environ.get("PUBLIC_KEY"))
 private_key = PrivateKey.from_nsec(os.environ.get("PRIVATE_KEY"))
 
-HASHTAG = "stackjoin"
-
+# HASHTAG = "stackjoin"
 
 def query_nostr_relays(type_of_query, query_term, since=0):
   if type_of_query != "individual_event":
@@ -62,8 +63,19 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
   else:
     print(f'last time checked ISO is {times_checked[0]["checked_time_iso"]}')
 
+  with open('hashtag_last_checked.txt', 'r+') as f:
+    hashtag_last_checked = f.readlines()[0].strip()
+    f.seek(0)
+    f.truncate(0)
+    if hashtag_last_checked == "stackjoin":
+      hashtag = "stackjoinadd"
+      f.write("stackjoinadd")
+    else:
+      hashtag = "stackjoin"
+      f.write("stackjoin")
+  # hashtag = "stackjoinadd"
 
-  message_pool_relay_manager_hashtag = query_nostr_relays(since=last_time_checked, type_of_query="hashtag", query_term=HASHTAG)
+  message_pool_relay_manager_hashtag = query_nostr_relays(since=last_time_checked, type_of_query="hashtag", query_term=hashtag)
 
   while message_pool_relay_manager_hashtag.has_events():
     event_msg = message_pool_relay_manager_hashtag.get_event()
@@ -74,8 +86,8 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
       if "t" in tag:
         print("event tag found")
         for item in tag:
-          if item == HASHTAG:
-            print(f"{HASHTAG} hashtag found")
+          if item == hashtag:
+            print(f"{hashtag} hashtag found")
             if event_msg.event.json[0] == "EVENT":
               print(f"\n>> Poster's profile on snort.social: https://snort.social/p/{PublicKey.hex_to_bech32(event_msg.event.json[2]['pubkey'], 'Encoding.BECH32')}")
               print(f">> Event on snort.social: https://snort.social/e/{PublicKey.hex_to_bech32(event_msg.event.json[2]['id'], 'Encoding.BECH32')}")
@@ -93,7 +105,16 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
     if has_hashtag == True and new_event == True:
       append_json(event_msg = event_msg.event.json)
       print('starting store stackjoin')
-      store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event_msg.event.json[2]['created_at']).isoformat())
+      if hashtag == "stackjoinadd":
+        query_term = extract_note_id_to_stackjoinadd(event_msg)
+        stackjoinadd_reporter = " [stackjoinadd_reporter: "+query_user_display_name(event_msg.event.json[2]['pubkey'])+" - npub "+event_msg.event.json[2]["pubkey"]
+        stackjoinadd_tweet_message = " - message: "+event_msg.event.json[2]["content"] + "]"
+        message_pool_relay_manager_stackjoinadd = query_nostr_relays(since=0, type_of_query="individual_event", query_term=query_term)
+        while message_pool_relay_manager_stackjoinadd.has_events():
+          event_msg = message_pool_relay_manager_stackjoinadd.get_event()
+        store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event_msg.event.json[2]['created_at']).isoformat(), stackjoinadd_reporter=stackjoinadd_reporter, stackjoinadd_tweet_message=stackjoinadd_tweet_message)
+      else:
+        store_stackjoin(event_msg.event.json, datetime.fromtimestamp(event_msg.event.json[2]['created_at']).isoformat())
       post_note(private_key, "content todo", [["e",event[2]['id']]])
   
   # updating last time checked for new notes
@@ -112,9 +133,10 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
 
 if __name__ == "__main__":
 
+  with open("hashtag_last_checked.txt","w") as f:
+    f.write("stackjoinadd")
+
   #running main function once
-  # stackchainsiggy_nostr(start_time_for_first_run=1688849212)
-  # stackchainsiggy_nostr()
   stackchainsiggy_nostr(start_time_for_first_run=int(datetime.now().timestamp()))
 
   scheduler = BlockingScheduler()

@@ -197,6 +197,9 @@ def store_stackjoin(event_json: list, note_datetimeISO, stackjoinadd_reporter = 
 
     event_json_string = ' '.join(map(str, event_json))
 
+    # if stackjoinadd_reporter != "0":
+    #     content += stackjoinadd_reporter
+
     # checking if block
     if stackjoin_tweets_or_blocks == "tblcwUsNLE3AecXpu": 
         # merge airtable_gif_files_dict into airtable_image_files_dict
@@ -288,8 +291,6 @@ def store_stackjoin(event_json: list, note_datetimeISO, stackjoinadd_reporter = 
                 "nostr_raw_json": event_json_string
                 })
 
-    if stackjoinadd_reporter != "0":
-        content += stackjoinadd_reporter
 
     #downloading stackjoin_tweets.json from s3 to appen tweet information
     # boto3.client('s3').download_file('pleblira', 'stackjoin_tweets/stackjoin_tweets.json', 'stackjoin_tweets/stackjoin_tweets.json')
