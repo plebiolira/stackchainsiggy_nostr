@@ -56,23 +56,25 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
 
   with open('last_time_checked.json', 'r') as f:
     times_checked = json.load(f)
-    last_time_checked = int(times_checked[0]['checked_time'])
-  if start_time_for_first_run != 0:
-    last_time_checked = start_time_for_first_run
-    print(f"checking from datetime ISO {datetime.fromtimestamp(start_time_for_first_run).isoformat()}")
-  else:
-    print(f'last time checked ISO is {times_checked[0]["checked_time_iso"]}')
-
-  with open('hashtag_last_checked.txt', 'r+') as f:
-    hashtag_last_checked = f.readlines()[0].strip()
-    f.seek(0)
-    f.truncate(0)
-    if hashtag_last_checked == "stackjoin":
-      hashtag = "stackjoinadd"
-      f.write("stackjoinadd")
-    else:
+    # last_time_checked = int(times_checked[0]['checked_time'])
+    if start_time_for_first_run != 0:
+      last_time_checked = start_time_for_first_run
+      print(f"checking from datetime ISO {datetime.fromtimestamp(start_time_for_first_run).isoformat()}")
       hashtag = "stackjoin"
-      f.write("stackjoin")
+    else:
+      if times_checked[0]["hashtag_checked"] == "stackjoin":
+        hashtag = "stackjoinadd"
+      else: 
+        hashtag = "stackjoin"
+      if times_checked[1]["hashtag_checked"] == hashtag:
+        print("if")
+        last_time_checked = times_checked[2]["checked_time"]
+        print(f'last time checked ISO is {times_checked[1]["checked_time_iso"]}. Now checking for {hashtag}')
+      else:
+        print("else")
+        last_time_checked = times_checked[1]["checked_time"]
+        print(f'last time checked ISO is {times_checked[2]["checked_time_iso"]}. Now checking for {hashtag}')
+    
   # hashtag = "stackjoinadd"
 
   message_pool_relay_manager_hashtag = query_nostr_relays(since=last_time_checked, type_of_query="hashtag", query_term=hashtag)
@@ -121,7 +123,7 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
   with open('last_time_checked.json', 'r+') as f:
     times_checked = json.load(f)
     times_checked.reverse()
-    times_checked.append({"checked_time":datetime.now().timestamp(), "checked_time_iso": datetime.now().now().isoformat(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1})
+    times_checked.append({"checked_time":datetime.now().timestamp(), "checked_time_iso": datetime.now().now().isoformat(), "number_of_checks":times_checked[len(times_checked)-1]['number_of_checks']+1, "hashtag_checked": hashtag})
     if len(times_checked) > 20:
       times_checked.pop(0)
     times_checked.reverse()
@@ -132,9 +134,6 @@ def stackchainsiggy_nostr(start_time_for_first_run = 0):
   print("finished running stackchainsiggy_nostr")
 
 if __name__ == "__main__":
-
-  with open("hashtag_last_checked.txt","w") as f:
-    f.write("stackjoinadd")
 
   #running main function once
   stackchainsiggy_nostr(start_time_for_first_run=int(datetime.now().timestamp()))
